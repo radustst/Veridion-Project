@@ -1,0 +1,238 @@
+
+====================================================================================================
+QUERY: Logistic companies in Romania
+====================================================================================================
+  funnel: 456 in database -> 26 pass hard filters -> 26 shortlisted -> 3 escalated -> 7 returned (6 qualified)
+  4.9s total | 2 llm calls | 15 cache hits | $0.00049
+
+  #   company                              location              score verdict    why
+  --------------------------------------------------------------------------------------------------------------------------------
+  1   Brasov Industrial Portfolio          Bucharest, Bucharest  0.978 QUALIFIED   Brasov Industrial Portfolio operates warehousing and logistics facilities 
+  2   Portul Constanta                     Constanța, Constanța  0.977 QUALIFIED   Portul Constanta manages port operations and transit cargo logistics servi
+  3   Compania Națională de Căi Ferate CFR Bucharest, Bucharest  0.976 QUALIFIED   CFR operates national railway infrastructure and freight rail transport se
+  4   OSCAR                                Bucharest, Bucharest  0.944 QUALIFIED   OSCAR provides logistics and storage services alongside fuel distribution 
+  5   Poșta Română                         RO                    0.918 QUALIFIED ^ Poșta Română is a major provider of parcel delivery and logistics services
+  6   Valbur                               Constanța, Constanța  0.918 QUALIFIED   Valbur engages in global logistics management and physical trade movement 
+  7   Prutul                               Bucharest, Bucharest  0.411 PARTIAL   ^ While Prutul provides transport and storage services, these appear to be a
+
+====================================================================================================
+QUERY: Public software companies with more than 1,000 employees.
+====================================================================================================
+  funnel: 456 in database -> 36 pass hard filters -> 30 shortlisted -> 1 escalated -> 20 returned (20 qualified)
+  2.5s total | 1 llm calls | 9 cache hits | $0.00019
+
+  #   company                              location              score verdict    why
+  --------------------------------------------------------------------------------------------------------------------------------
+  1   Tata Consultancy Services            Mumbai, Maharashtra,  1.000 QUALIFIED   Tata Consultancy Services is a publicly traded software and IT services co
+  2   Concentrix                           Newark, California,   0.997 QUALIFIED   Concentrix is a publicly traded technology solutions and software services
+  3   CGI                                  Montreal, Quebec, CA  0.977 QUALIFIED   CGI is a publicly traded software development and IT consulting company wi
+  4   Fujitsu                              Kawasaki, Kanagawa P  0.975 QUALIFIED   Fujitsu is a publicly traded ICT and software services corporation with 12
+  5   Capgemini                            Toronto, Ontario, CA  0.974 QUALIFIED   Capgemini is a publicly traded IT consulting and software services company
+  6   CACI                                 Reston, Virginia, US  0.961 QUALIFIED   CACI is a publicly traded IT solutions and services provider with 20,000 e
+  7   NTT DATA                             Tokyo, Tokyo, JP      0.959 QUALIFIED   NTT DATA is a publicly traded IT service and consulting company with 195,1
+  8   Wipro                                Doddakannelli, Karna  0.955 QUALIFIED   Wipro is a publicly traded technology and software services company with 2
+  9   Mphasis                              New York, New York,   0.954 QUALIFIED   Mphasis is a publicly traded company with 31,645 employees and provides so
+  10  SAIC                                 Reston, Virginia, US  0.953 QUALIFIED   SAIC is a publicly traded technology company with 25,000 employees providi
+  ... and 10 more
+
+====================================================================================================
+QUERY: Food and beverage manufacturers in France
+====================================================================================================
+  funnel: 456 in database -> 40 pass hard filters -> 30 shortlisted -> 1 escalated -> 20 returned (20 qualified)
+  2.5s total | 2 llm calls | 22 cache hits | $0.00045
+
+  #   company                              location              score verdict    why
+  --------------------------------------------------------------------------------------------------------------------------------
+  1   Fermenting & Co                      Les Sables-d'Olonne,  1.000 QUALIFIED   Fermenting & Co is a French company engaged in the artisanal production of
+  2   Geyer                                Paris, Ile-de-France  0.997 QUALIFIED   Geyer is a French beverage manufacturer producing drinks in France.
+  3   L'Essinganaise                       Vallières-les-Grande  0.996 QUALIFIED   L'Essinganaise is a French company specialized in the manufacturing of pre
+  4   La Péro                              Givors, Auvergne-Rhô  0.987 QUALIFIED   La Péro is a French company engaged in the production of alcoholic beverag
+  5   Kermené                              Le Mené, Brittany, F  0.986 QUALIFIED   Kermené is a French company specialized in the production and processing o
+  6   Riviera Kombucha                     Grasse, Provence-Alp  0.985 QUALIFIED   Riviera Kombucha is a French company engaged in the production and distrib
+  7   La Limonaderie de Paris              Nanterre, Ile-de-Fra  0.974 QUALIFIED   La Limonaderie de Paris is a French beverage manufacturer specializing in 
+  8   GreenLeaf Mate                       Levallois-Perret, Il  0.967 QUALIFIED   GreenLeaf Mate is a French beverage manufacturer producing maté-based drin
+  9   LA MULTILOCALE                       Solliès-Toucas, Prov  0.966 QUALIFIED   LA MULTILOCALE is a French cooperative society specialized in food process
+  10  Club-Mate                            Paris, Ile-de-France  0.965 QUALIFIED   Club-Mate is a French food and beverage manufacturer specializing in spark
+  ... and 10 more
+
+====================================================================================================
+QUERY: Companies that could supply packaging materials for a direct-to-consumer cosmetics brand
+====================================================================================================
+  funnel: 456 in database -> 456 pass hard filters -> 80 shortlisted -> 2 escalated -> 21 returned (21 qualified)
+  0.0s total | 0 llm calls | 12 cache hits | $0.00000
+
+  #   company                              location              score verdict    why
+  --------------------------------------------------------------------------------------------------------------------------------
+  1   BAOLILONG GLASS PACKAGING            Guangdong Province,   1.000 QUALIFIED   BAOLILONG GLASS PACKAGING manufactures cosmetic glass packaging and serves
+  2   SHEACK Packaging                     Shanghai, Shanghai,   1.000 QUALIFIED   SHEACK Packaging manufactures and distributes packaging solutions like pum
+  3   Lesopack Cos Packaging               Melbourne, Victoria,  0.997 QUALIFIED   Lesopack Cos Packaging manufactures custom cosmetic packaging products inc
+  4   Wenjing Packaging                    Jincheng, Shanxi, CN  0.993 QUALIFIED   Wenjing Packaging manufactures cosmetic jars, bottles, and tubes for cosme
+  5   Shanghai Bochen Cosmetic Packaging   Fengxian District, S  0.990 QUALIFIED   Shanghai Bochen Cosmetic Packaging manufactures cosmetic plastic bottles, 
+  6   Sunshine Packaging                   Hangzhou, Zhejiang,   0.989 QUALIFIED   Sunshine Packaging manufactures and exports custom cosmetic bottles, jars,
+  7   Shenzhen Itop Cosmetic Packaging     Pingshan District, G  0.989 QUALIFIED   Shenzhen Itop Cosmetic Packaging manufactures and distributes custom cosme
+  8   Silver Spur                          Cerritos, California  0.987 QUALIFIED   Silver Spur manufactures and distributes glass and plastic containers and 
+  9   Crystal International                Toronto, Ontario, CA  0.987 QUALIFIED   Crystal International manufactures glass and plastic packaging components 
+  10  SZ SJ Packaging                      Shenzhen, Guangdong   0.984 QUALIFIED   SZ SJ Packaging manufactures cosmetic-specific packaging like lipstick tub
+  ... and 11 more
+
+====================================================================================================
+QUERY: Construction companies in the United States with revenue over $50 million
+====================================================================================================
+  funnel: 456 in database -> 55 pass hard filters -> 30 shortlisted -> 1 escalated -> 20 returned (20 qualified)
+  3.3s total | 3 llm calls | 10 cache hits | $0.00055
+
+  #   company                              location              score verdict    why
+  --------------------------------------------------------------------------------------------------------------------------------
+  1   Skanska                              US                    1.000 QUALIFIED   Skanska operates as a construction and development company in the US with 
+  2   Focus Civil Construction Group       Portland, Oregon, US  0.991 QUALIFIED   Focus Civil Construction Group is a US general contracting and constructio
+  3   Kiewit                               Omaha, Nebraska, US   0.988 QUALIFIED   Kiewit is an American construction and engineering company with revenue ov
+  4   Fluor                                Irving, Texas, US     0.982 QUALIFIED   Fluor is an American engineering and construction company with revenue exc
+  5   Tutor Perini                         Los Angeles, Califor  0.981 QUALIFIED   Tutor Perini is an American construction company with revenue over $50 mil
+  6   DPR Construction                     Redwood City, Califo  0.977 QUALIFIED   DPR Construction is an American general contractor with revenue exceeding 
+  7   Lemartec                             Coconut Grove, Flori  0.977 QUALIFIED   Lemartec is an American general contracting company with revenue over $50 
+  8   Bechtel                              Reston, Virginia, US  0.973 QUALIFIED   Bechtel is an American construction and engineering company with revenue e
+  9   Halmar International                 Nanuet, New York, US  0.969 QUALIFIED   Halmar International is a US construction company with over $50 million in
+  10  Quanta Services                      Houston, Texas, US    0.962 QUALIFIED   Quanta Services operates as an infrastructure contracting company in the U
+  ... and 10 more
+
+====================================================================================================
+QUERY: Pharmaceutical companies in Switzerland
+====================================================================================================
+  funnel: 456 in database -> 43 pass hard filters -> 30 shortlisted -> 7 escalated -> 27 returned (27 qualified)
+  3.9s total | 3 llm calls | 13 cache hits | $0.00080
+
+  #   company                              location              score verdict    why
+  --------------------------------------------------------------------------------------------------------------------------------
+  1   Novartis                             Basel, Basel-City, C  1.000 QUALIFIED   Novartis is a Swiss multinational pharmaceutical corporation engaged in th
+  2   Acino                                Zurich, Zurich, CH    0.983 QUALIFIED   Acino International AG is a Swiss pharmaceutical company engaged in the de
+  3   Idorsia                              Allschwil, Basel-Lan  0.966 QUALIFIED   Idorsia Pharmaceuticals Ltd is a Swiss biopharmaceutical company engaged i
+  4   MSD                                  Lucerne, Lucerne, CH  0.957 QUALIFIED   MSD Merck Sharp & Dohme AG is a Swiss biopharmaceutical company engaged in
+  5   Octapharma                           Lachen, Schwyz, CH    0.955 QUALIFIED   Octapharma AG is a Swiss pharmaceutical company engaged in the development
+  6   IBSA                                 Lugano, Ticino, CH    0.954 QUALIFIED   IBSA Institut Biochimique SA is a Swiss pharmaceutical company engaged in 
+  7   Galderma                             Zug, Zug, CH          0.949 QUALIFIED   Galderma S.A. is a Swiss pharmaceutical company engaged in the development
+  8   Sumitomo Pharma Switzerland          Basel, Basel-City, C  0.948 QUALIFIED   Sumitomo Pharma Switzerland GmbH is a Swiss pharmaceutical company engaged
+  9   Nestlé Health Science                Vevey, Vaud, CH       0.939 QUALIFIED   Nestlé Health Science is located in Switzerland and engages in pharmaceuti
+  10  Lonza                                Basel, Basel-City, C  0.938 QUALIFIED   Lonza is a Swiss contract development and manufacturing organization provi
+  ... and 17 more
+
+====================================================================================================
+QUERY: B2B SaaS companies providing HR solutions in Europe
+====================================================================================================
+  funnel: 456 in database -> 285 pass hard filters -> 55 shortlisted -> 13 escalated -> 46 returned (46 qualified)
+  4.2s total | 4 llm calls | 16 cache hits | $0.00154
+
+  #   company                              location              score verdict    why
+  --------------------------------------------------------------------------------------------------------------------------------
+  1   Personio                             Munich, Bavaria, DE   1.000 QUALIFIED   Personio is a German B2B SaaS company developing comprehensive HR and payr
+  2   BambooHR                             Dublin, Leinster, IE  0.989 QUALIFIED   BambooHR operates in Ireland as a B2B SaaS provider of HR management and p
+  3   Global HR                            London, England, GB   0.984 QUALIFIED   Global HR is a British B2B SaaS company delivering cloud-based human resou
+  4   ASCIA                                Malveira, Lisbon, PT  0.975 QUALIFIED   ASCIA is a Portuguese B2B SaaS provider offering software for payroll, att
+  5   IguanaHR                             Shropshire, England,  0.974 QUALIFIED   IguanaHR is a British B2B SaaS platform providing comprehensive HR and pay
+  6   ICON HR                              Cramlington, England  0.959 QUALIFIED   ICON HR is a British B2B SaaS company providing cloud-based HR management 
+  7   Novative                             Nyon, Vaud, CH        0.950 QUALIFIED   Novative is a Swiss B2B SaaS company providing cloud-based HR and payroll 
+  8   BCS HR Software                      's-Hertogenbosch, No  0.950 QUALIFIED   BCS HR Software is a Dutch B2B SaaS company offering HRM and payroll admin
+  9   Educos                               Koerich, Luxembourg,  0.948 QUALIFIED   Educos is a Luxembourgish B2B SaaS company developing HRIS and payroll sof
+  10  UK HR Cloud                          Manchester, England,  0.944 QUALIFIED   UK HR Cloud is a British B2B SaaS company providing HR Management System s
+  ... and 36 more
+
+====================================================================================================
+QUERY: Clean energy startups founded after 2018 with fewer than 200 employees
+====================================================================================================
+  funnel: 456 in database -> 222 pass hard filters -> 55 shortlisted -> 13 escalated -> 50 returned (19 qualified)
+  4.4s total | 4 llm calls | 20 cache hits | $0.00155
+
+  #   company                              location              score verdict    why
+  --------------------------------------------------------------------------------------------------------------------------------
+  1   NextGEN Energy                       Quinto di Treviso, V  0.960 QUALIFIED   NextGEN Energy provides energy storage solutions and battery systems, foun
+  2   WBS Mobility                         Warsaw, Masovian Voi  0.957 QUALIFIED   WBS Mobility develops electric vehicle charging infrastructure and solar p
+  3   Krefter                              Oslo, Oslo, NO        0.952 QUALIFIED   Krefter develops renewable energy solutions and data centers, founded in 2
+  4   Norhybrid Renewables                 Porsgrunn, Vestfold   0.951 QUALIFIED   Norhybrid Renewables manufactures wind turbines and hybrid power systems, 
+  5   Verta                                Stavanger, Rogaland,  0.946 QUALIFIED   Verta develops small-scale wind turbines and clean energy solutions, found
+  6   World Wide Wind                      Bærum, Viken, NO      0.937 QUALIFIED   World Wide Wind was founded in 2021, has 6 employees, and develops offshor
+  7   Fred. Olsen 1848                     Oslo, Oslo, NO        0.936 QUALIFIED   Fred. Olsen 1848 was founded in 2021, has 15 employees, and develops float
+  8   Alotta                               Ålesund, Møre og Rom  0.929 QUALIFIED   Alotta was founded in 2020, has 11 employees, and manufactures floating so
+  9   SideWind                             Reykjavik, Iceland,   0.920 QUALIFIED   SideWind manufactures vertical axis wind turbines, founded in 2019, with 4
+  10  WindSpider                           Sandnes, Rogaland, N  0.916 QUALIFIED   WindSpider manufactures wind turbine lifting solutions, founded in 2020, w
+  ... and 40 more
+
+====================================================================================================
+QUERY: Fast-growing fintech companies competing with traditional banks in Europe.
+====================================================================================================
+  funnel: 456 in database -> 285 pass hard filters -> 80 shortlisted -> 5 escalated -> 7 returned (4 qualified)
+  0.0s total | 0 llm calls | 11 cache hits | $0.00000
+
+  #   company                              location              score verdict    why
+  --------------------------------------------------------------------------------------------------------------------------------
+  1   Phin                                 Starnberg, Bavaria,   0.976 QUALIFIED   Phin provides a digital mobile banking platform aggregating accounts and n
+  2   Aircash                              City of Zagreb, City  0.972 QUALIFIED   Aircash is an electronic money institution offering digital wallet and pre
+  3   Folio                                Oslo, Oslo, NO        0.970 QUALIFIED   Folio offers software-based business banking services and account manageme
+  4   European Pay                         Paris, Ile-de-France  0.950 QUALIFIED   European Pay develops and operates a digital payment and wallet platform f
+  5   Agility FX                           London, England, GB   0.458 PARTIAL     Agility FX provides digital international money transfers and multi-curren
+  6   CTC FUND                             London, England, GB   0.457 PARTIAL     CTC Fund operates decentralized blockchain lending, which is adjacent but 
+  7   ECrowd Invest                        Barcelona, Catalonia  0.438 PARTIAL     ECrowd Invest operates an online crowd lending platform for sustainable pr
+
+====================================================================================================
+QUERY: E-commerce companies using Shopify or similar platforms
+====================================================================================================
+  funnel: 456 in database -> 456 pass hard filters -> 55 shortlisted -> 13 escalated -> 31 returned (4 qualified)
+  5.4s total | 8 llm calls | 1 cache hits | $0.00413
+
+  #   company                              location              score verdict    why
+  --------------------------------------------------------------------------------------------------------------------------------
+  1   H&M Home                             Kuwait City, Al Asim  0.924 QUALIFIED   H&M Home operates an online retail store selling home goods and clothing d
+  2   Dell Technologies                    Chatswood, New South  0.920 QUALIFIED   Dell Technologies operates an online retail store for personal computers a
+  3   Decathlon                            Villeneuve-d'Ascq, H  0.919 QUALIFIED   Decathlon operates a global retail network and e-commerce store for sporti
+  4   Flextribe                            Austin, Texas, US     0.898 QUALIFIED   Flextribe engages in direct-to-consumer packaging retail and operates onli
+  5   Hy-Vee                               US                    0.450 PARTIAL     Hy-Vee operates online grocery retail, but its specific e-commerce platfor
+  6   Lululemon                            US                    0.441 PARTIAL     Lululemon operates an online retail store, but the record does not confirm
+  7   Coles                                Hawthorn East, Victo  0.440 PARTIAL     Coles operates grocery retail, but the record lacks evidence of its specif
+  8   The Home Depot                       Atlanta, Georgia, US  0.435 PARTIAL     The Home Depot operates online retail, but the record does not specify the
+  9   Harbor Freight                       Calabasas, Californi  0.434 PARTIAL     Harbor Freight operates an e-commerce platform, but the record does not co
+  10  Forever 21                           New York, New York,   0.433 PARTIAL     Forever 21 operates an online store, but the record does not specify wheth
+  ... and 21 more
+
+====================================================================================================
+QUERY: Renewable energy equipment manufacturers in Scandinavia
+====================================================================================================
+  funnel: 456 in database -> 63 pass hard filters -> 55 shortlisted -> 13 escalated -> 53 returned (45 qualified)
+  15.9s total | 16 llm calls | 0 cache hits | $0.00972
+
+  #   company                              location              score verdict    why
+  --------------------------------------------------------------------------------------------------------------------------------
+  1   Norhybrid Renewables                 Porsgrunn, Vestfold   1.000 QUALIFIED   Norhybrid Renewables designs and manufactures wind turbines and hybrid ren
+  2   Wave Dragon                          Copenhagen, Capital   0.981 QUALIFIED   Wave Dragon develops and manufactures offshore floating power plant soluti
+  3   Ventum Dynamics                      Stavanger, Rogaland,  0.978 QUALIFIED   Ventum Dynamics engages in the design and manufacturing of wind turbines i
+  4   EWP Windtower Production             Landskrona, Skåne Co  0.976 QUALIFIED   EWP Windtower Production manufactures large steel structures for wind turb
+  5   Vestas                               Aarhus, Central Denm  0.968 QUALIFIED   Vestas designs, produces, and manufactures wind turbines in Denmark.
+  6   Next Fabrication                     Aarhus, Central Denm  0.966 QUALIFIED   Next Fabrication produces metal and composite parts for renewable energy a
+  7   Tesla Ocean Turbine                  Örebro, Örebro Count  0.959 QUALIFIED   Tesla Ocean Turbine specializes in the development and deployment of tidal
+  8   Verta                                Stavanger, Rogaland,  0.953 QUALIFIED   Verta specializes in small-scale vertical axis wind turbine manufacturing 
+  9   ENERCON                              Malmo, Skåne County,  0.929 QUALIFIED   ENERCON is located in Sweden and explicitly lists wind energy equipment ma
+  10  DEIF Wind Power Technology           Skive, Central Denma  0.929 QUALIFIED   DEIF Wind Power Technology is located in Denmark and manufactures wind tur
+  ... and 43 more
+
+====================================================================================================
+QUERY: Companies that manufacture or supply critical components for electric vehicle battery production
+====================================================================================================
+  funnel: 456 in database -> 456 pass hard filters -> 80 shortlisted -> 8 escalated -> 51 returned (47 qualified)
+  18.6s total | 19 llm calls | 0 cache hits | $0.01138
+
+  #   company                              location              score verdict    why
+  --------------------------------------------------------------------------------------------------------------------------------
+  1   RJETech                              Guangzhou, Guangdong  0.989 QUALIFIED   RJETech manufactures cathode and anode materials, battery cells, and modul
+  2   QuantumScape                         San Jose, California  0.986 QUALIFIED   QuantumScape manufactures solid-state lithium-metal batteries and ceramic 
+  3   Stratus Materials                    Pittsburgh, Pennsylv  0.980 QUALIFIED   Stratus Materials develops and manufactures cobalt-free cathode active mat
+  4   BTR New Material Group               Shenzhen, Guangdong   0.979 QUALIFIED   BTR New Material Group manufactures cathode and anode materials for lithiu
+  5   Altmin                               Hyderabad, Telangana  0.978 QUALIFIED   Altmin manufactures cathode and anode materials for lithium-ion batteries 
+  6   Nascent Materials                    Newark, New Jersey,   0.977 QUALIFIED   Nascent Materials manufactures cathode materials for electric vehicle lith
+  7   Dongdao New Energy                   Zhanjiang, Guangdong  0.976 QUALIFIED   Dongdao New Energy manufactures anode materials and electrolytes for elect
+  8   Sepion Technologies                  Alameda, California,  0.975 QUALIFIED   Sepion Technologies produces coated separator technology for electric vehi
+  9   Hunan Yueneng New Energy Battery Mat Yuhu, Hunan, CN       0.972 QUALIFIED   Hunan Yueneng manufactures cathode materials for new energy vehicle batter
+  10  Li Hongte                            Xi'an, Shaanxi, CN    0.972 QUALIFIED   Li Hongte manufactures lithium-ion battery cathode materials for the elect
+  ... and 41 more
+
+====================================================================================================
+12 queries | 36.5s wall (3.0s/query) | 62 llm calls | $0.03081 | corpus warm 0.0s
+cache: {"hits": 75, "misses": 49, "embed": 481, "escalate": 34, "planner": 27, "qualify": 156}
+wrote C:\Users\Win11PRO\intent-qualification\results\results.json and C:\Users\Win11PRO\intent-qualification\results\results.md
+EXIT=0

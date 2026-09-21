@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Response cache. Regenerated on demand; the corpus embedding below is the
+# one cache artefact worth committing, because rebuilding it costs five
+# minutes against a 100-requests-per-minute rate limit.
+cache/*.sqlite
+!cache/corpus-*.npz
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

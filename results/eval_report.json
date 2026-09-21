@@ -1,0 +1,2902 @@
+{
+  "pool_depth": 20,
+  "relevance_threshold": 2,
+  "queries": {
+    "q01": {
+      "query": "Logistic companies in Romania",
+      "kind": "structured",
+      "note": "Geography plus a clean industry. The trap is software vendors selling logistics tools, and in-house distribution arms of non-logistics firms.",
+      "complexity_detected": "STRUCTURED",
+      "pool_size": 20,
+      "relevant_in_pool": 6,
+      "cascade": {
+        "returned": 7.0,
+        "P@5": 1.0,
+        "nDCG@5": 0.9908,
+        "R@5": 0.8333,
+        "P@10": 0.8571,
+        "nDCG@10": 0.9495,
+        "R@10": 1.0,
+        "P@20": 0.8571,
+        "nDCG@20": 0.8585,
+        "R@20": 1.0,
+        "MAP": 1.0,
+        "relevant_found": 6.0,
+        "relevant_in_pool": 6.0
+      },
+      "baseline_b": {
+        "returned": 20.0,
+        "P@5": 0.6,
+        "nDCG@5": 0.6354,
+        "R@5": 0.5,
+        "P@10": 0.6,
+        "nDCG@10": 0.8552,
+        "R@10": 1.0,
+        "P@20": 0.3,
+        "nDCG@20": 0.8684,
+        "R@20": 1.0,
+        "MAP": 0.6764,
+        "relevant_found": 6.0,
+        "relevant_in_pool": 6.0
+      },
+      "baseline_a": {
+        "returned": 9.0,
+        "P@5": 0.8,
+        "nDCG@5": 0.9595,
+        "R@5": 0.6667,
+        "P@10": 0.6667,
+        "nDCG@10": 0.9815,
+        "R@10": 1.0,
+        "P@20": 0.6667,
+        "nDCG@20": 0.8874,
+        "R@20": 1.0,
+        "MAP": 0.9484,
+        "relevant_found": 6.0,
+        "relevant_in_pool": 6.0
+      },
+      "graded_detail": [
+        {
+          "name": "Brasov Industrial Portfolio",
+          "location": "Bucharest, Bucharest, RO",
+          "grade": 3,
+          "judge_says": "Specializes in warehousing, logistics facility leasing, and e-commerce logistics solutions.",
+          "cascade_rank": 1,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Brasov Industrial Portfolio operates warehousing and logistics facilities in Romania, meeting the primary industry and geographic criteria.",
+          "baseline_b_rank": 1
+        },
+        {
+          "name": "Portul Constanta",
+          "location": "Constan\u021ba, Constan\u021ba, RO",
+          "grade": 3,
+          "judge_says": "Operates port infrastructure and provides cargo handling and transit logistics services in Romania.",
+          "cascade_rank": 2,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Portul Constanta manages port operations and transit cargo logistics services in Romania.",
+          "baseline_b_rank": 6
+        },
+        {
+          "name": "Po\u0219ta Rom\u00e2n\u0103",
+          "location": "RO",
+          "grade": 3,
+          "judge_says": "Provides parcel delivery and postal logistics services within Romania.",
+          "cascade_rank": 5,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Po\u0219ta Rom\u00e2n\u0103 is a major provider of parcel delivery and logistics services with operations in Romania.",
+          "baseline_b_rank": 5
+        },
+        {
+          "name": "Compania Na\u021bional\u0103 de C\u0103i Ferate CFR",
+          "location": "Bucharest, Bucharest, RO",
+          "grade": 3,
+          "judge_says": "Manages national railway infrastructure and provides freight rail transport services.",
+          "cascade_rank": 3,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "CFR operates national railway infrastructure and freight rail transport services in Romania.",
+          "baseline_b_rank": 9
+        },
+        {
+          "name": "Valbur",
+          "location": "Constan\u021ba, Constan\u021ba, RO",
+          "grade": 2,
+          "judge_says": "Provides global logistics management and trade facilitation services.",
+          "cascade_rank": 6,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Valbur engages in global logistics management and physical trade movement from Romania.",
+          "baseline_b_rank": 4
+        },
+        {
+          "name": "OSCAR",
+          "location": "Bucharest, Bucharest, RO",
+          "grade": 2,
+          "judge_says": "Fuel distributor that operates its own logistics infrastructure and provides logistics services.",
+          "cascade_rank": 4,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "OSCAR provides logistics and storage services alongside fuel distribution in Romania.",
+          "baseline_b_rank": 8
+        },
+        {
+          "name": "STILL",
+          "location": "Dragomire\u0219ti-Vale, Ilfov, RO",
+          "grade": 1,
+          "judge_says": "Manufacturer and supplier of intralogistics equipment, not a logistics service provider.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 2
+        },
+        {
+          "name": "Prutul",
+          "location": "Bucharest, Bucharest, RO",
+          "grade": 1,
+          "judge_says": "Primarily an agribusiness and vegetable oil producer; logistics is internal, not a core service.",
+          "cascade_rank": 7,
+          "cascade_verdict": "PARTIAL",
+          "cascade_reason": "While Prutul provides transport and storage services, these appear to be ancillary to their primary business of vegetable oil production and agribusiness.",
+          "baseline_b_rank": 17
+        },
+        {
+          "name": "AQUA CENTER",
+          "location": "Constan\u021ba, Constan\u021ba, RO",
+          "grade": 1,
+          "judge_says": "Manufacturer of pipes and fittings; logistics is an internal operational function, not their business.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 15
+        },
+        {
+          "name": "Mercedes-Benz Trucks & Buses Romania",
+          "location": "Voluntari, Ilfov, RO",
+          "grade": 1,
+          "judge_says": "Automotive dealer and service provider; fleet management is a value-add, not a logistics company.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 14
+        },
+        {
+          "name": "Transgaz",
+          "location": "Media\u0219, Sibiu, RO",
+          "grade": 1,
+          "judge_says": "Natural gas transmission utility; 'logistics' here refers to pipeline infrastructure, not commercial logistics.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 10
+        },
+        {
+          "name": "CBRE Romania",
+          "location": "Bucharest, Bucharest, RO",
+          "grade": 1,
+          "judge_says": "Real estate services firm; serves the logistics sector but is not a logistics company itself.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 3
+        },
+        {
+          "name": "Romgaz",
+          "location": "Media\u0219, Sibiu, RO",
+          "grade": 1,
+          "judge_says": "Natural gas extraction and energy company; not a logistics company.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 19
+        },
+        {
+          "name": "Rompetrol",
+          "location": "Bucharest, Bucharest, RO",
+          "grade": 1,
+          "judge_says": "Petroleum refining and fuel distribution company; not a logistics company.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 20
+        },
+        {
+          "name": "Bunge Romania",
+          "location": "Bucharest, Bucharest, RO",
+          "grade": 1,
+          "judge_says": "Agricultural commodity processing and manufacturing company; not a logistics company.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 12
+        },
+        {
+          "name": "European Drinks",
+          "location": "Oradea, Bihor, RO",
+          "grade": 1,
+          "judge_says": "Beverage and food manufacturing company; not a logistics company.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 18
+        },
+        {
+          "name": "Fildas Trading",
+          "location": "Bucharest, Bucharest, RO",
+          "grade": 1,
+          "judge_says": "Primarily a pharmaceutical wholesaler and retailer; logistics is an internal support function, not their core business.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 11
+        },
+        {
+          "name": "METRO Rom\u00e2nia",
+          "location": "Bucharest, Bucharest, RO",
+          "grade": 1,
+          "judge_says": "A wholesale retailer; logistics is an internal operational component, not a third-party logistics service provider.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 7
+        },
+        {
+          "name": "Valtec",
+          "location": "Bucharest, Bucharest, RO",
+          "grade": 1,
+          "judge_says": "A distributor of lubricants and industrial supplies; logistics is an internal function, not their primary business model.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 13
+        },
+        {
+          "name": "EcoExpert Green Consulting",
+          "location": "Oradea, Bihor, RO",
+          "grade": 0,
+          "judge_says": "An environmental consulting firm; completely unrelated to the logistics industry.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 16
+        }
+      ]
+    },
+    "q02": {
+      "query": "Public software companies with more than 1,000 employees.",
+      "kind": "structured",
+      "note": "Three field-level constraints. is_public is present for every row but employee_count is missing for 38%, so the headcount gate is where recall is won or lost.",
+      "complexity_detected": "STRUCTURED",
+      "pool_size": 34,
+      "relevant_in_pool": 0,
+      "cascade": {
+        "returned": 20.0,
+        "P@5": 0.0,
+        "nDCG@5": 1.0,
+        "R@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 1.0,
+        "R@10": 0.0,
+        "P@20": 0.0,
+        "nDCG@20": 1.0,
+        "R@20": 0.0,
+        "MAP": 0.0,
+        "relevant_found": 0.0,
+        "relevant_in_pool": 0.0
+      },
+      "baseline_b": {
+        "returned": 20.0,
+        "P@5": 0.0,
+        "nDCG@5": 0.8539,
+        "R@5": 0.0,
+        "P@10": 0.0,
+        "nDCG@10": 0.6911,
+        "R@10": 0.0,
+        "P@20": 0.0,
+        "nDCG@20": 0.732,
+        "R@20": 0.0,
+        "MAP": 0.0,
+        "relevant_found": 0.0,
+        "relevant_in_pool": 0.0
+      },
+      "graded_detail": [
+        {
+          "name": "Atos",
+          "location": "Bezons, Ile-de-France, FR",
+          "grade": 1,
+          "judge_says": "Public, but an IT services and consulting firm, not a software publisher.",
+          "cascade_rank": 15,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Atos is a publicly traded IT services company with 94,000 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "DWS Group",
+          "location": "Melbourne, Victoria, AU",
+          "grade": 1,
+          "judge_says": "Public, but an IT consulting firm, not a software publisher.",
+          "cascade_rank": 19,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "DWS Group is publicly traded with over 227,000 employees and provides IT and software consulting services.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "quarksUp",
+          "location": "Paris, Ile-de-France, FR",
+          "grade": 1,
+          "judge_says": "Software company, but private and fails the employee count constraint.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 1
+        },
+        {
+          "name": "Capgemini",
+          "location": "Toronto, Ontario, CA",
+          "grade": 1,
+          "judge_says": "Public, but an IT consulting firm, not a software publisher.",
+          "cascade_rank": 5,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Capgemini is a publicly traded IT consulting and software services company with 341,100 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Sun RH",
+          "location": "FR",
+          "grade": 1,
+          "judge_says": "Software company, but private.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 13
+        },
+        {
+          "name": "Foederis",
+          "location": "Etoy, Vaud, CH",
+          "grade": 1,
+          "judge_says": "Software company, but private.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 12
+        },
+        {
+          "name": "Concentrix",
+          "location": "Newark, California, US",
+          "grade": 1,
+          "judge_says": "Public, but an IT services and outsourcing firm, not a software publisher.",
+          "cascade_rank": 2,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Concentrix is a publicly traded technology solutions and software services company with 440,000 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Global HR",
+          "location": "London, England, GB",
+          "grade": 1,
+          "judge_says": "Software company, but private.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 17
+        },
+        {
+          "name": "CGI",
+          "location": "Montreal, Quebec, CA",
+          "grade": 1,
+          "judge_says": "Public and large, but primarily an IT services and consulting firm, not a software product company.",
+          "cascade_rank": 3,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "CGI is a publicly traded software development and IT consulting company with 95,000 employees.",
+          "baseline_b_rank": 15
+        },
+        {
+          "name": "NTT DATA",
+          "location": "Tokyo, Tokyo, JP",
+          "grade": 1,
+          "judge_says": "Public and large, but primarily an IT services and consulting firm, not a software product company.",
+          "cascade_rank": 7,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "NTT DATA is a publicly traded IT service and consulting company with 195,100 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "EPAM",
+          "location": "Newtown, Pennsylvania, US",
+          "grade": 1,
+          "judge_says": "Public and large, but primarily an IT services and consulting firm, not a software product company.",
+          "cascade_rank": 11,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "EPAM is a publicly traded software engineering company with 62,050 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Educos",
+          "location": "Koerich, Luxembourg, LU",
+          "grade": 1,
+          "judge_says": "Is a software company, but is private and has fewer than 1,000 employees.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 10
+        },
+        {
+          "name": "HR Campus",
+          "location": "D\u00fcbendorf, Zurich, CH",
+          "grade": 1,
+          "judge_says": "Is private and has fewer than 1,000 employees; primarily a consulting and services firm.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 5
+        },
+        {
+          "name": "ASGN",
+          "location": "Glen Allen, Virginia, US",
+          "grade": 1,
+          "judge_says": "Public and large, but primarily an IT services and staffing firm, not a software product company.",
+          "cascade_rank": 16,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "ASGN is a publicly traded IT services company with 21,000 employees providing IT consulting and enterprise software solutions.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Tietoevry",
+          "location": "Espoo, Uusimaa, FI",
+          "grade": 1,
+          "judge_says": "Public and large, but primarily an IT services and consulting firm, not a software product company.",
+          "cascade_rank": 17,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Tietoevry is a publicly traded company with over 23,000 employees that provides software development, digital engineering, and IT consulting services.",
+          "baseline_b_rank": 18
+        },
+        {
+          "name": "Ciphr",
+          "location": "Reading, England, GB",
+          "grade": 1,
+          "judge_says": "Is a software company, but is private and has fewer than 1,000 employees.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 19
+        },
+        {
+          "name": "Genpact",
+          "location": "US",
+          "grade": 1,
+          "judge_says": "This is an IT services and consulting firm, not a software product company.",
+          "cascade_rank": 14,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Genpact is a publicly traded IT services and outsourcing company with 125,000 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Globant",
+          "location": "Luxembourg, Luxembourg, LU",
+          "grade": 1,
+          "judge_says": "This is an IT and software development services provider, not a software product company.",
+          "cascade_rank": 13,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Globant is a publicly traded software development company with 29,150 employees.",
+          "baseline_b_rank": 11
+        },
+        {
+          "name": "Wipro",
+          "location": "Doddakannelli, Karnataka, IN",
+          "grade": 1,
+          "judge_says": "This is an IT services and consulting company, not a software product company.",
+          "cascade_rank": 8,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Wipro is a publicly traded technology and software services company with 233,346 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Tata Consultancy Services",
+          "location": "Mumbai, Maharashtra, IN",
+          "grade": 1,
+          "judge_says": "This is an IT consulting and outsourcing services company, not a software product company.",
+          "cascade_rank": 1,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Tata Consultancy Services is a publicly traded software and IT services company with 607,979 employees.",
+          "baseline_b_rank": 16
+        },
+        {
+          "name": "Fujitsu",
+          "location": "Kawasaki, Kanagawa Prefecture, JP",
+          "grade": 1,
+          "judge_says": "This is an IT services and equipment company, not a software product company.",
+          "cascade_rank": 4,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Fujitsu is a publicly traded ICT and software services corporation with 124,000 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Mphasis",
+          "location": "New York, New York, US",
+          "grade": 1,
+          "judge_says": "This is an IT services and consulting company, not a software product company.",
+          "cascade_rank": 9,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Mphasis is a publicly traded company with 31,645 employees and provides software-related IT and cloud services.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Sincron HR",
+          "location": "Bucharest, Bucharest, RO",
+          "grade": 1,
+          "judge_says": "Violates the employee count constraint (15 employees) and is a private company.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 3
+        },
+        {
+          "name": "Leidos",
+          "location": "Reston, Virginia, US",
+          "grade": 1,
+          "judge_says": "This is a systems integrator and engineering firm, not a software product company.",
+          "cascade_rank": 18,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Leidos is a publicly traded company with 48,000 employees providing software and IT solutions.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "CACI",
+          "location": "Reston, Virginia, US",
+          "grade": 1,
+          "judge_says": "Public, large, but primarily a government IT services and consulting firm, not a software product company.",
+          "cascade_rank": 6,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "CACI is a publicly traded IT solutions and services provider with 20,000 employees.",
+          "baseline_b_rank": 7
+        },
+        {
+          "name": "SAIC",
+          "location": "Reston, Virginia, US",
+          "grade": 1,
+          "judge_says": "Public, large, but primarily a government IT services and engineering firm, not a software product company.",
+          "cascade_rank": 10,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "SAIC is a publicly traded technology company with 25,000 employees providing IT and software-related solutions.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Booz Allen",
+          "location": "McLean, Virginia, US",
+          "grade": 1,
+          "judge_says": "Public, large, but primarily a management and technology consulting firm, not a software product company.",
+          "cascade_rank": 12,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Booz Allen is a publicly traded technology and consulting company with 34,200 employees offering software development.",
+          "baseline_b_rank": 2
+        },
+        {
+          "name": "Telef\u00f3nica Venture Builder",
+          "location": "Madrid, Community of Madrid, ES",
+          "grade": 1,
+          "judge_says": "Public and large, but primarily a telecommunications and venture building firm, not a software product company.",
+          "cascade_rank": 20,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Telef\u00f3nica Venture Builder is publicly traded with over 100,000 employees and focuses on digital technologies and software.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "BrightPay",
+          "location": "The Municipal District of Laytown \u2014 Bettystown, Leinster, IE",
+          "grade": 0,
+          "judge_says": "Private company; fails the public ownership constraint.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 8
+        },
+        {
+          "name": "Virtualia",
+          "location": "Puteaux, Ile-de-France, FR",
+          "grade": 0,
+          "judge_says": "Private company; fails the public ownership constraint.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 4
+        },
+        {
+          "name": "Microtis",
+          "location": "Steinfort, Luxembourg, LU",
+          "grade": 0,
+          "judge_says": "Private company with only 16 employees; fails both public and size constraints.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 6
+        },
+        {
+          "name": "NOVRH",
+          "location": "Marseille, Provence-Alpes-C\u00f4te d'Azur, FR",
+          "grade": 0,
+          "judge_says": "Private company with 63 employees; fails both public and size constraints.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 14
+        },
+        {
+          "name": "Paychex",
+          "location": "Hamburg, Hamburg, DE",
+          "grade": 0,
+          "judge_says": "Company is private and has only 70 employees, violating both the public and size constraints.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 9
+        },
+        {
+          "name": "Crocodile",
+          "location": "Carlisle, England, GB",
+          "grade": 0,
+          "judge_says": "Company is private and has only 41 employees, violating both the public and size constraints.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 20
+        }
+      ]
+    },
+    "q03": {
+      "query": "Food and beverage manufacturers in France",
+      "kind": "structured",
+      "note": "NAICS 311/312 plus country. The trap is retailers and distributors of food that do not manufacture it.",
+      "complexity_detected": "STRUCTURED",
+      "pool_size": 20,
+      "relevant_in_pool": 20,
+      "cascade": {
+        "returned": 20.0,
+        "P@5": 1.0,
+        "nDCG@5": 1.0,
+        "R@5": 0.25,
+        "P@10": 1.0,
+        "nDCG@10": 0.9621,
+        "R@10": 0.5,
+        "P@20": 1.0,
+        "nDCG@20": 0.9939,
+        "R@20": 1.0,
+        "MAP": 1.0,
+        "relevant_found": 20.0,
+        "relevant_in_pool": 20.0
+      },
+      "baseline_b": {
+        "returned": 20.0,
+        "P@5": 1.0,
+        "nDCG@5": 1.0,
+        "R@5": 0.25,
+        "P@10": 1.0,
+        "nDCG@10": 1.0,
+        "R@10": 0.5,
+        "P@20": 1.0,
+        "nDCG@20": 0.9986,
+        "R@20": 1.0,
+        "MAP": 1.0,
+        "relevant_found": 20.0,
+        "relevant_in_pool": 20.0
+      },
+      "graded_detail": [
+        {
+          "name": "GreenLeaf Mate",
+          "location": "Levallois-Perret, Ile-de-France, FR",
+          "grade": 3,
+          "judge_says": "French company explicitly engaged in beverage manufacturing and distribution.",
+          "cascade_rank": 8,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "GreenLeaf Mate is a French beverage manufacturer producing mat\u00e9-based drinks.",
+          "baseline_b_rank": 11
+        },
+        {
+          "name": "La Limonaderie de Paris",
+          "location": "Nanterre, Ile-de-France, FR",
+          "grade": 3,
+          "judge_says": "French beverage manufacturer specializing in artisanal sparkling beverages.",
+          "cascade_rank": 7,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "La Limonaderie de Paris is a French beverage manufacturer specializing in the production of sparkling beverages.",
+          "baseline_b_rank": 4
+        },
+        {
+          "name": "Famille Pouille",
+          "location": "Bonneville, Auvergne-Rh\u00f4ne-Alpes, FR",
+          "grade": 3,
+          "judge_says": "French company specialized in the manufacturing and production of food and beverage products.",
+          "cascade_rank": 16,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "The company explicitly states it specializes in the manufacturing and production of food and beverage products and is located in France.",
+          "baseline_b_rank": 1
+        },
+        {
+          "name": "Conserverie Fourmi",
+          "location": "Rennes, Brittany, FR",
+          "grade": 3,
+          "judge_says": "French food production business specializing in canning and preservation.",
+          "cascade_rank": 15,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Conserverie Fourmi is a French food production business specializing in canning and preservation.",
+          "baseline_b_rank": 20
+        },
+        {
+          "name": "Riviera Kombucha",
+          "location": "Grasse, Provence-Alpes-C\u00f4te d'Azur, FR",
+          "grade": 3,
+          "judge_says": "French company engaged in the production of kombucha beverages.",
+          "cascade_rank": 6,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Riviera Kombucha is a French company engaged in the production and distribution of kombucha beverages.",
+          "baseline_b_rank": 17
+        },
+        {
+          "name": "La P\u00e9ro",
+          "location": "Givors, Auvergne-Rh\u00f4ne-Alpes, FR",
+          "grade": 3,
+          "judge_says": "French company engaged in the production of alcoholic beverages.",
+          "cascade_rank": 4,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "La P\u00e9ro is a French company engaged in the production of alcoholic beverages in France.",
+          "baseline_b_rank": 15
+        },
+        {
+          "name": "Auvergnat Cola",
+          "location": "Lempdes, Auvergne-Rh\u00f4ne-Alpes, FR",
+          "grade": 3,
+          "judge_says": "French beverage manufacturer specialized in the production of regional soft drinks.",
+          "cascade_rank": 11,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Auvergnat Cola is a French beverage manufacturer producing regional soft drinks.",
+          "baseline_b_rank": 10
+        },
+        {
+          "name": "Fermenting & Co",
+          "location": "Les Sables-d'Olonne, Pays de la Loire, FR",
+          "grade": 3,
+          "judge_says": "French company engaged in the artisanal production of fermented beverages.",
+          "cascade_rank": 1,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Fermenting & Co is a French company engaged in the artisanal production of fermented beverages in France.",
+          "baseline_b_rank": 7
+        },
+        {
+          "name": "Geyer",
+          "location": "Paris, Ile-de-France, FR",
+          "grade": 3,
+          "judge_says": "French manufacturer of beverages including lemonade, energy drinks, and beer.",
+          "cascade_rank": 2,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Geyer is a French beverage manufacturer producing drinks in France.",
+          "baseline_b_rank": 2
+        },
+        {
+          "name": "Kermen\u00e9",
+          "location": "Le Men\u00e9, Brittany, FR",
+          "grade": 3,
+          "judge_says": "French company manufacturing and processing meat products for the food and beverage sector.",
+          "cascade_rank": 5,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Kermen\u00e9 is a French company specialized in the production and processing of meat products in France.",
+          "baseline_b_rank": 18
+        },
+        {
+          "name": "Dechelette Estate",
+          "location": "Belleville-en-Beaujolais, Auvergne-Rh\u00f4ne-Alpes, FR",
+          "grade": 3,
+          "judge_says": "French winery and beverage manufacturer specializing in wine production and bottling.",
+          "cascade_rank": 19,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Dechelette Estate is a French wine and food producer operating in France.",
+          "baseline_b_rank": 3
+        },
+        {
+          "name": "Domaine Godeau",
+          "location": "Beaulieu-sur-Layon, Pays de la Loire, FR",
+          "grade": 3,
+          "judge_says": "French winery and beverage manufacturer based in France.",
+          "cascade_rank": 20,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Domaine Godeau is a beverage and food manufacturer located in France.",
+          "baseline_b_rank": 6
+        },
+        {
+          "name": "MILHADE Vins & Spiritueux",
+          "location": "Libourne, Nouvelle-Aquitaine, FR",
+          "grade": 3,
+          "judge_says": "French manufacturer of wine and spirits.",
+          "cascade_rank": 13,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "MILHADE Vins & Spiritueux is a French beverage manufacturer operating in wine and spirit production.",
+          "baseline_b_rank": 5
+        },
+        {
+          "name": "L'Essinganaise",
+          "location": "Valli\u00e8res-les-Grandes, Centre-Val de Loire, FR",
+          "grade": 3,
+          "judge_says": "French manufacturer of prepared African dishes and beverages.",
+          "cascade_rank": 3,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "L'Essinganaise is a French company specialized in the manufacturing of prepared African dishes and beverages.",
+          "baseline_b_rank": 14
+        },
+        {
+          "name": "INOU",
+          "location": "Paris, Ile-de-France, FR",
+          "grade": 3,
+          "judge_says": "French manufacturer engaged in fruit processing and product manufacturing.",
+          "cascade_rank": 18,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "INOU manufactures and processes fruit products in Paris, France.",
+          "baseline_b_rank": 19
+        },
+        {
+          "name": "Yumi",
+          "location": "Paris, Ile-de-France, FR",
+          "grade": 3,
+          "judge_says": "French company engaged in the production of organic beverages, fitting the food and beverage manufacturer criteria.",
+          "cascade_rank": 12,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Yumi is a French company engaged in the production and distribution of organic beverage products.",
+          "baseline_b_rank": 13
+        },
+        {
+          "name": "Club-Mate",
+          "location": "Paris, Ile-de-France, FR",
+          "grade": 3,
+          "judge_says": "French food and beverage manufacturer specializing in the production of yerba mate-infused sparkling beverages.",
+          "cascade_rank": 10,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Club-Mate is a French food and beverage manufacturer specializing in sparkling beverages.",
+          "baseline_b_rank": 8
+        },
+        {
+          "name": "Elixia",
+          "location": "Champagnole, Bourgogne-Franche-Comt\u00e9, FR",
+          "grade": 3,
+          "judge_says": "French manufacturer specialized in the production of organic limonades, fitting the food and beverage manufacturer criteria.",
+          "cascade_rank": 14,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Elixia is a French manufacturer specialized in the production of organic limonades.",
+          "baseline_b_rank": 12
+        },
+        {
+          "name": "Paniers d'Eve",
+          "location": "Canet, Occitania, FR",
+          "grade": 3,
+          "judge_says": "French food manufacturer operating in fruit and vegetable processing, fitting the food and beverage manufacturer criteria.",
+          "cascade_rank": 17,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Paniers d'Eve is a French food manufacturer operating in fruit and vegetable processing.",
+          "baseline_b_rank": 9
+        },
+        {
+          "name": "LA MULTILOCALE",
+          "location": "Solli\u00e8s-Toucas, Provence-Alpes-C\u00f4te d'Azur, FR",
+          "grade": 2,
+          "judge_says": "French cooperative involved in food processing and production, though also focused on support services.",
+          "cascade_rank": 9,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "LA MULTILOCALE is a French cooperative society specialized in food processing and local food production.",
+          "baseline_b_rank": 16
+        }
+      ]
+    },
+    "q04": {
+      "query": "Companies that could supply packaging materials for a direct-to-consumer cosmetics brand",
+      "kind": "reasoning",
+      "note": "The canonical embedding failure: naive similarity returns cosmetics brands. Correct answers are packaging manufacturers, which may never mention cosmetics at all.",
+      "complexity_detected": "REASONING",
+      "pool_size": 21,
+      "relevant_in_pool": 18,
+      "cascade": {
+        "returned": 21.0,
+        "P@5": 1.0,
+        "nDCG@5": 0.8027,
+        "R@5": 0.2778,
+        "P@10": 1.0,
+        "nDCG@10": 0.7814,
+        "R@10": 0.5556,
+        "P@20": 0.85,
+        "nDCG@20": 0.9162,
+        "R@20": 0.9444,
+        "MAP": 0.9921,
+        "relevant_found": 18.0,
+        "relevant_in_pool": 18.0
+      },
+      "baseline_b": {
+        "returned": 20.0,
+        "P@5": 0.8,
+        "nDCG@5": 0.5612,
+        "R@5": 0.2222,
+        "P@10": 0.9,
+        "nDCG@10": 0.6576,
+        "R@10": 0.5,
+        "P@20": 0.9,
+        "nDCG@20": 0.8679,
+        "R@20": 1.0,
+        "MAP": 0.8862,
+        "relevant_found": 18.0,
+        "relevant_in_pool": 18.0
+      },
+      "baseline_a": {
+        "returned": 20.0,
+        "P@5": 1.0,
+        "nDCG@5": 0.8027,
+        "R@5": 0.2778,
+        "P@10": 1.0,
+        "nDCG@10": 0.7814,
+        "R@10": 0.5556,
+        "P@20": 0.9,
+        "nDCG@20": 0.9302,
+        "R@20": 1.0,
+        "MAP": 0.994,
+        "relevant_found": 18.0,
+        "relevant_in_pool": 18.0
+      },
+      "graded_detail": [
+        {
+          "name": "Silver Spur",
+          "location": "Cerritos, California, US",
+          "grade": 3,
+          "judge_says": "Directly manufactures and supplies cosmetic packaging solutions to the cosmetics industry.",
+          "cascade_rank": 8,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Silver Spur manufactures and distributes glass and plastic containers and closures supplying health and beauty industries.",
+          "baseline_b_rank": 15
+        },
+        {
+          "name": "Shenzhen Itop Cosmetic Packaging",
+          "location": "Pingshan District, Guangdong Province, CN",
+          "grade": 3,
+          "judge_says": "Specializes in manufacturing and supplying custom cosmetic packaging solutions globally.",
+          "cascade_rank": 7,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Shenzhen Itop Cosmetic Packaging manufactures and distributes custom cosmetic packaging such as bottles, jars, and tubes.",
+          "baseline_b_rank": 13
+        },
+        {
+          "name": "Lesopack Cos Packaging",
+          "location": "Melbourne, Victoria, AU",
+          "grade": 3,
+          "judge_says": "Manufacturer providing custom cosmetic packaging solutions and services for beauty brands.",
+          "cascade_rank": 3,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Lesopack Cos Packaging manufactures custom cosmetic packaging products including bottles and tubes for the beauty industry.",
+          "baseline_b_rank": 10
+        },
+        {
+          "name": "YONWOO",
+          "location": "Incheon, Incheon, KR",
+          "grade": 3,
+          "judge_says": "Specialized manufacturer of cosmetic packaging solutions, including high-end bottles and pumps.",
+          "cascade_rank": 16,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "YONWOO manufactures specialized cosmetic packaging solutions, including airless pumps and bottles for the beauty industry.",
+          "baseline_b_rank": 17
+        },
+        {
+          "name": "Wenjing Packaging",
+          "location": "Jincheng, Shanxi, CN",
+          "grade": 3,
+          "judge_says": "Manufacturer focused on design and production of various cosmetic packaging containers.",
+          "cascade_rank": 4,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Wenjing Packaging manufactures cosmetic jars, bottles, and tubes for cosmetics and personal care brands.",
+          "baseline_b_rank": 12
+        },
+        {
+          "name": "Yijie Packaging",
+          "location": "Yongkang, Zhejiang, CN",
+          "grade": 3,
+          "judge_says": "Manufacturer and supplier of diverse packaging products specifically for the cosmetics and personal care industries.",
+          "cascade_rank": 15,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Yijie Packaging manufactures and supplies glass and plastic packaging products for the cosmetics and personal care industries.",
+          "baseline_b_rank": 6
+        },
+        {
+          "name": "BAOLILONG GLASS PACKAGING",
+          "location": "Guangdong Province, CN",
+          "grade": 3,
+          "judge_says": "Manufacturer specialized in producing and supplying custom cosmetic glass packaging.",
+          "cascade_rank": 1,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "BAOLILONG GLASS PACKAGING manufactures cosmetic glass packaging and serves the cosmetics industry.",
+          "baseline_b_rank": 14
+        },
+        {
+          "name": "Minh Trang Packaging",
+          "location": "Ho Chi Minh City Saigon, H\u1ed3 Ch\u00ed Minh City, VN",
+          "grade": 3,
+          "judge_says": "Explicitly offers direct-to-consumer cosmetic packaging sales and custom printing services.",
+          "cascade_rank": 11,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Minh Trang Packaging manufactures and supplies cosmetic bottles, jars, and caps, serving both B2B and B2C markets.",
+          "baseline_b_rank": 1
+        },
+        {
+          "name": "Aurelo Packaging Co",
+          "location": "St Leonards, New South Wales, AU",
+          "grade": 3,
+          "judge_says": "Directly serves small brands and individuals with skincare packaging, perfectly aligning with DTC cosmetics needs.",
+          "cascade_rank": 17,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Aurelo Packaging Co manufactures skincare and beauty packaging including glass dropper bottles and caps, targeting the beauty and personal care industry.",
+          "baseline_b_rank": 9
+        },
+        {
+          "name": "seycosmetics.co.uk",
+          "location": "Tampa, Florida, US",
+          "grade": 2,
+          "judge_says": "Offers cosmetic packaging wholesale; however, the company is primarily a beauty cosmetics manufacturer.",
+          "cascade_rank": 21,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Bodis produces and distributes beauty cosmetics and cosmetic packaging for the cosmetics industry.",
+          "baseline_b_rank": 19
+        },
+        {
+          "name": "SHEACK Packaging",
+          "location": "Shanghai, Shanghai, CN",
+          "grade": 2,
+          "judge_says": "Specializes in cosmetics packaging manufacturing and distribution, though primarily B2B focused.",
+          "cascade_rank": 2,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "SHEACK Packaging manufactures and distributes packaging solutions like pumps, bottles, and jars for cosmetics and personal care.",
+          "baseline_b_rank": 8
+        },
+        {
+          "name": "Shanghai Bochen Cosmetic Packaging",
+          "location": "Fengxian District, Shanghai, CN",
+          "grade": 2,
+          "judge_says": "Directly manufactures cosmetic packaging; business model includes B2C, making them a strong candidate.",
+          "cascade_rank": 5,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Shanghai Bochen Cosmetic Packaging manufactures cosmetic plastic bottles, tubes, and jars for the personal care and cosmetics industries.",
+          "baseline_b_rank": 5
+        },
+        {
+          "name": "Crystal International",
+          "location": "Toronto, Ontario, CA",
+          "grade": 2,
+          "judge_says": "Established manufacturer of cosmetics packaging, though focused on B2B/enterprise services.",
+          "cascade_rank": 9,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Crystal International manufactures glass and plastic packaging components specifically for the cosmetics and personal care industries.",
+          "baseline_b_rank": 16
+        },
+        {
+          "name": "Standard Mold",
+          "location": "Anyang-si, Gyeonggi, KR",
+          "grade": 2,
+          "judge_says": "Dedicated manufacturer of cosmetic packaging and containers for the cosmetics industry.",
+          "cascade_rank": 13,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Standard Mold manufactures cosmetic containers, tubes, and applicators for the cosmetics industry.",
+          "baseline_b_rank": 7
+        },
+        {
+          "name": "Sunshine Packaging",
+          "location": "Hangzhou, Zhejiang, CN",
+          "grade": 2,
+          "judge_says": "Specialized manufacturer and exporter of cosmetic packaging solutions.",
+          "cascade_rank": 6,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Sunshine Packaging manufactures and exports custom cosmetic bottles, jars, and packaging for cosmetics brands.",
+          "baseline_b_rank": 4
+        },
+        {
+          "name": "Central de Envasados",
+          "location": "Alcal\u00e1 de Henares, Community of Madrid, ES",
+          "grade": 2,
+          "judge_says": "Specializes in cosmetic co-packing and packaging, though primarily B2B wholesale rather than specifically DTC-focused.",
+          "cascade_rank": 12,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Central de Envasados provides packaging solutions including tubes, jars, and bottles specifically for the cosmetic industry.",
+          "baseline_b_rank": 18
+        },
+        {
+          "name": "SZ SJ Packaging",
+          "location": "Shenzhen, Guangdong Province, CN",
+          "grade": 2,
+          "judge_says": "Strong cosmetic packaging manufacturer offering ODM/OEM services, suitable for beauty brands, though primarily B2B wholesale.",
+          "cascade_rank": 10,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "SZ SJ Packaging manufactures cosmetic-specific packaging like lipstick tubes and eyeshadow palettes for beauty brands.",
+          "baseline_b_rank": 3
+        },
+        {
+          "name": "Ningbo Onson",
+          "location": "Ningbo, Zhejiang, CN",
+          "grade": 2,
+          "judge_says": "Specialized cosmetic packaging manufacturer serving global markets, though primarily B2B wholesale.",
+          "cascade_rank": 14,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Ningbo Onson manufactures and supplies cosmetic packaging products, including perfume packaging and various molding services.",
+          "baseline_b_rank": 11
+        },
+        {
+          "name": "Flextribe",
+          "location": "Austin, Texas, US",
+          "grade": 1,
+          "judge_says": "Focuses on honeycomb packing paper for fragile items; cosmetics is a secondary, tangential market.",
+          "cascade_rank": 20,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Flextribe manufactures eco-friendly packaging materials and serves the cosmetics industry.",
+          "baseline_b_rank": 2
+        },
+        {
+          "name": "Vetipak",
+          "location": "Oss, North Brabant, NL",
+          "grade": 1,
+          "judge_says": "Co-manufacturing and logistics provider for FMCG; not a primary supplier of cosmetic packaging materials.",
+          "cascade_rank": 18,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Vetipak is a packaging company offering co-manufacturing and packaging solutions for personal care and consumer goods.",
+          "baseline_b_rank": 20
+        },
+        {
+          "name": "Avery",
+          "location": "Strongsville, Ohio, US",
+          "grade": 1,
+          "judge_says": "Primarily an office supply and label manufacturer; not a specialized packaging supplier for the cosmetics industry.",
+          "cascade_rank": 19,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Avery manufactures and distributes custom and blank self-adhesive packaging labels and tags for businesses, directly serving product packaging needs.",
+          "baseline_b_rank": null
+        }
+      ]
+    },
+    "q05": {
+      "query": "Construction companies in the United States with revenue over $50 million",
+      "kind": "structured",
+      "note": "Clean on paper. Tests unit handling ($50 million -> 50000000) and whether engineering/architecture firms are wrongly counted as construction.",
+      "complexity_detected": "STRUCTURED",
+      "pool_size": 21,
+      "relevant_in_pool": 20,
+      "cascade": {
+        "returned": 20.0,
+        "P@5": 1.0,
+        "nDCG@5": 1.0,
+        "R@5": 0.25,
+        "P@10": 1.0,
+        "nDCG@10": 1.0,
+        "R@10": 0.5,
+        "P@20": 1.0,
+        "nDCG@20": 1.0,
+        "R@20": 1.0,
+        "MAP": 1.0,
+        "relevant_found": 20.0,
+        "relevant_in_pool": 20.0
+      },
+      "baseline_b": {
+        "returned": 20.0,
+        "P@5": 1.0,
+        "nDCG@5": 1.0,
+        "R@5": 0.25,
+        "P@10": 1.0,
+        "nDCG@10": 1.0,
+        "R@10": 0.5,
+        "P@20": 0.95,
+        "nDCG@20": 0.9723,
+        "R@20": 0.95,
+        "MAP": 1.0,
+        "relevant_found": 19.0,
+        "relevant_in_pool": 20.0
+      },
+      "graded_detail": [
+        {
+          "name": "Bechtel",
+          "location": "Reston, Virginia, US",
+          "grade": 3,
+          "judge_says": "US-based construction company with revenue well over $50 million.",
+          "cascade_rank": 8,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Bechtel is an American construction and engineering company with revenue exceeding $50 million.",
+          "baseline_b_rank": 9
+        },
+        {
+          "name": "Lemartec",
+          "location": "Coconut Grove, Florida, US",
+          "grade": 3,
+          "judge_says": "US-based construction company with revenue well over $50 million.",
+          "cascade_rank": 7,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Lemartec is an American general contracting company with revenue over $50 million.",
+          "baseline_b_rank": 6
+        },
+        {
+          "name": "Kiewit",
+          "location": "Omaha, Nebraska, US",
+          "grade": 3,
+          "judge_says": "US-based construction company with revenue well over $50 million.",
+          "cascade_rank": 3,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Kiewit is an American construction and engineering company with revenue over $50 million.",
+          "baseline_b_rank": 1
+        },
+        {
+          "name": "Clayton Homes",
+          "location": "Maryville, Tennessee, US",
+          "grade": 3,
+          "judge_says": "US-based home construction company with revenue well over $50 million.",
+          "cascade_rank": 16,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Clayton Homes is a US home building and construction company with revenue over $50 million.",
+          "baseline_b_rank": 18
+        },
+        {
+          "name": "Fluor",
+          "location": "Irving, Texas, US",
+          "grade": 3,
+          "judge_says": "US-based construction company with revenue well over $50 million.",
+          "cascade_rank": 4,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Fluor is an American engineering and construction company with revenue exceeding $50 million.",
+          "baseline_b_rank": 11
+        },
+        {
+          "name": "PulteGroup",
+          "location": "Atlanta, Georgia, US",
+          "grade": 3,
+          "judge_says": "US-based home construction company with revenue well over $50 million.",
+          "cascade_rank": 15,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "PulteGroup is a major US homebuilder directly engaged in the construction of residential properties with annual revenue significantly exceeding the $50 million threshold.",
+          "baseline_b_rank": 19
+        },
+        {
+          "name": "Skanska",
+          "location": "US",
+          "grade": 3,
+          "judge_says": "US-based construction operations with revenue well over $50 million.",
+          "cascade_rank": 1,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Skanska operates as a construction and development company in the US with revenue over $50 million.",
+          "baseline_b_rank": 4
+        },
+        {
+          "name": "Focus Civil Construction Group",
+          "location": "Portland, Oregon, US",
+          "grade": 3,
+          "judge_says": "US-based construction company with revenue exceeding $50 million.",
+          "cascade_rank": 2,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Focus Civil Construction Group is a US general contracting and construction company with revenue exceeding $50 million.",
+          "baseline_b_rank": 12
+        },
+        {
+          "name": "Tutor Perini",
+          "location": "Los Angeles, California, US",
+          "grade": 3,
+          "judge_says": "US-based construction company with revenue exceeding $50 million.",
+          "cascade_rank": 5,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Tutor Perini is an American construction company with revenue over $50 million.",
+          "baseline_b_rank": 5
+        },
+        {
+          "name": "EMCOR Group",
+          "location": "Norwalk, Connecticut, US",
+          "grade": 3,
+          "judge_says": "US-based construction and infrastructure company with revenue exceeding $50 million.",
+          "cascade_rank": 11,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "EMCOR Group is a US electrical and mechanical construction contractor with revenue over $50 million.",
+          "baseline_b_rank": 2
+        },
+        {
+          "name": "Halmar International",
+          "location": "Nanuet, New York, US",
+          "grade": 3,
+          "judge_says": "US-based construction company with revenue exceeding $50 million.",
+          "cascade_rank": 9,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Halmar International is a US construction company with over $50 million in revenue.",
+          "baseline_b_rank": 10
+        },
+        {
+          "name": "Trusted Solutions Group",
+          "location": "Washington, District of Columbia, US",
+          "grade": 3,
+          "judge_says": "US-based construction services company with revenue exceeding $50 million.",
+          "cascade_rank": 20,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Trusted Solutions Group is a US construction and general contracting company with revenue exceeding $50 million.",
+          "baseline_b_rank": 15
+        },
+        {
+          "name": "Versar",
+          "location": "Washington, District of Columbia, US",
+          "grade": 3,
+          "judge_says": "US-based construction and engineering company with revenue exceeding $50 million.",
+          "cascade_rank": 18,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Versar is a US-based heavy civil construction and engineering company with revenue exceeding $50 million.",
+          "baseline_b_rank": 16
+        },
+        {
+          "name": "BNBuilders",
+          "location": "Seattle, Washington, US",
+          "grade": 3,
+          "judge_says": "US-based construction company with revenue exceeding $50 million.",
+          "cascade_rank": 13,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "BNBuilders is a US commercial construction company with revenue over $50 million.",
+          "baseline_b_rank": 13
+        },
+        {
+          "name": "DPR Construction",
+          "location": "Redwood City, California, US",
+          "grade": 3,
+          "judge_says": "US-based construction company with revenue exceeding $50 million.",
+          "cascade_rank": 6,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "DPR Construction is an American general contractor with revenue exceeding $50 million.",
+          "baseline_b_rank": 3
+        },
+        {
+          "name": "Versar",
+          "location": "Washington, District of Columbia, US",
+          "grade": 3,
+          "judge_says": "US-based construction company with revenue significantly exceeding the $50 million threshold.",
+          "cascade_rank": 19,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Versar operates as a construction and engineering services company in the US with revenue well above $50 million.",
+          "baseline_b_rank": 14
+        },
+        {
+          "name": "BrandSafway",
+          "location": "Atlanta, Georgia, US",
+          "grade": 3,
+          "judge_says": "US-based specialty trade contractor with revenue significantly exceeding the $50 million threshold.",
+          "cascade_rank": 12,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "BrandSafway operates as a specialty trade contractor in the US with revenue exceeding $50 million.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Quanta Services",
+          "location": "Houston, Texas, US",
+          "grade": 3,
+          "judge_says": "US-based infrastructure construction company with revenue significantly exceeding the $50 million threshold.",
+          "cascade_rank": 10,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Quanta Services operates as an infrastructure contracting company in the US with revenue exceeding $50 million.",
+          "baseline_b_rank": 8
+        },
+        {
+          "name": "Brock Group",
+          "location": "Deer Park, Texas, US",
+          "grade": 3,
+          "judge_says": "US-based specialty construction services provider with revenue significantly exceeding the $50 million threshold.",
+          "cascade_rank": 14,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Brock Group operates as an industrial specialty trade contractor in the US with revenue exceeding $50 million.",
+          "baseline_b_rank": 17
+        },
+        {
+          "name": "Colaska",
+          "location": "Anchorage, Alaska, US",
+          "grade": 3,
+          "judge_says": "US-based highway and bridge construction company with revenue significantly exceeding the $50 million threshold.",
+          "cascade_rank": 17,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Colaska is a US construction company engaged in transportation infrastructure with revenue exceeding $50 million.",
+          "baseline_b_rank": 7
+        },
+        {
+          "name": "CSI Compass",
+          "location": "London, England, GB",
+          "grade": 1,
+          "judge_says": "Located in the UK, violating the United States location constraint.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 20
+        }
+      ]
+    },
+    "q06": {
+      "query": "Pharmaceutical companies in Switzerland",
+      "kind": "structured",
+      "note": "Easy geography, but Switzerland is 43 rows here and heavy in life sciences, so precision depends on separating pharma from medtech, diagnostics and CROs.",
+      "complexity_detected": "STRUCTURED",
+      "pool_size": 24,
+      "relevant_in_pool": 24,
+      "cascade": {
+        "returned": 27.0,
+        "P@5": 1.0,
+        "nDCG@5": 1.0,
+        "R@5": 0.2083,
+        "P@10": 1.0,
+        "nDCG@10": 0.9258,
+        "R@10": 0.4167,
+        "P@20": 1.0,
+        "nDCG@20": 0.9433,
+        "R@20": 0.8333,
+        "MAP": 0.9876,
+        "relevant_found": 22.0,
+        "relevant_in_pool": 24.0
+      },
+      "baseline_b": {
+        "returned": 20.0,
+        "P@5": 1.0,
+        "nDCG@5": 0.9165,
+        "R@5": 0.2083,
+        "P@10": 1.0,
+        "nDCG@10": 0.901,
+        "R@10": 0.4167,
+        "P@20": 1.0,
+        "nDCG@20": 0.9451,
+        "R@20": 0.8333,
+        "MAP": 1.0,
+        "relevant_found": 20.0,
+        "relevant_in_pool": 24.0
+      },
+      "graded_detail": [
+        {
+          "name": "Idorsia",
+          "location": "Allschwil, Basel-Landschaft, CH",
+          "grade": 3,
+          "judge_says": "Swiss-based biopharmaceutical company focused on the discovery, development, and commercialization of therapeutics.",
+          "cascade_rank": 3,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Idorsia Pharmaceuticals Ltd is a Swiss biopharmaceutical company engaged in the discovery, development, and commercialization of therapeutics.",
+          "baseline_b_rank": 9
+        },
+        {
+          "name": "Acino",
+          "location": "Zurich, Zurich, CH",
+          "grade": 3,
+          "judge_says": "Swiss-based pharmaceutical company engaged in development, manufacturing, and marketing of prescription and OTC medicines.",
+          "cascade_rank": 2,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Acino International AG is a Swiss pharmaceutical company engaged in the development and manufacturing of pharmaceuticals.",
+          "baseline_b_rank": 3
+        },
+        {
+          "name": "ADC Therapeutics",
+          "location": "\u00c9palinges, Vaud, CH",
+          "grade": 3,
+          "judge_says": "Swiss-based biotechnology company focused on the research, development, and commercialization of pharmaceutical therapies.",
+          "cascade_rank": 13,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "ADC Therapeutics is a Swiss biotechnology company engaged in the research, development, and manufacturing of antibody drug conjugates.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Debiopharm",
+          "location": "Lausanne, Vaud, CH",
+          "grade": 3,
+          "judge_says": "Swiss-based biopharmaceutical company engaged in drug development, manufacturing, and commercialization of prescription drugs.",
+          "cascade_rank": 11,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Debiopharm is a Swiss biopharmaceutical company engaged in drug development and manufacturing.",
+          "baseline_b_rank": 7
+        },
+        {
+          "name": "Sumitomo Pharma Switzerland",
+          "location": "Basel, Basel-City, CH",
+          "grade": 3,
+          "judge_says": "Swiss-based pharmaceutical company engaged in the manufacturing, distribution, and development of pharmaceutical products.",
+          "cascade_rank": 8,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Sumitomo Pharma Switzerland GmbH is a Swiss pharmaceutical company engaged in the manufacturing and distribution of pharmaceutical products.",
+          "baseline_b_rank": 8
+        },
+        {
+          "name": "A. Menarini",
+          "location": "Zurich, Zurich, CH",
+          "grade": 3,
+          "judge_says": "Swiss-based pharmaceutical company engaged in the development, manufacturing, and distribution of medicinal products.",
+          "cascade_rank": 19,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "A. Menarini is a Swiss-based company involved in the development, manufacturing, and distribution of medicinal products.",
+          "baseline_b_rank": 19
+        },
+        {
+          "name": "Tillotts Pharma",
+          "location": "Rheinfelden, Aargau, CH",
+          "grade": 3,
+          "judge_says": "Swiss-based pharmaceutical company engaged in development, manufacturing, and marketing of pharmaceutical products.",
+          "cascade_rank": 27,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Tillotts Pharma is a Swiss pharmaceutical company engaged in the development and marketing of pharmaceutical products.",
+          "baseline_b_rank": 18
+        },
+        {
+          "name": "Octapharma",
+          "location": "Lachen, Schwyz, CH",
+          "grade": 3,
+          "judge_says": "Swiss-based pharmaceutical company focused on human protein-based therapies and manufacturing.",
+          "cascade_rank": 5,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Octapharma AG is a Swiss pharmaceutical company engaged in the development and manufacturing of human protein-based therapies.",
+          "baseline_b_rank": 10
+        },
+        {
+          "name": "Galderma",
+          "location": "Zug, Zug, CH",
+          "grade": 3,
+          "judge_says": "Swiss-based pharmaceutical company specializing in dermatological treatments and injectable aesthetics.",
+          "cascade_rank": 7,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Galderma S.A. is a Swiss pharmaceutical company engaged in the development, manufacturing, and distribution of dermatological treatments.",
+          "baseline_b_rank": 20
+        },
+        {
+          "name": "Helsinn",
+          "location": "Lugano, Ticino, CH",
+          "grade": 3,
+          "judge_says": "Swiss-based pharmaceutical company focused on oncology and rare disease drug development and manufacturing.",
+          "cascade_rank": 16,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Helsinn is a Swiss-based company actively engaged in the research, development, and manufacturing of pharmaceutical drugs and oncology therapeutics.",
+          "baseline_b_rank": 11
+        },
+        {
+          "name": "Novartis",
+          "location": "Basel, Basel-City, CH",
+          "grade": 3,
+          "judge_says": "Major Swiss-based multinational pharmaceutical corporation engaged in drug development and manufacturing.",
+          "cascade_rank": 1,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Novartis is a Swiss multinational pharmaceutical corporation engaged in the development, manufacturing, and distribution of pharmaceuticals.",
+          "baseline_b_rank": 1
+        },
+        {
+          "name": "Ferring",
+          "location": "Saint-Prex, Vaud, CH",
+          "grade": 3,
+          "judge_says": "Swiss-based biopharmaceutical company focused on research, development, and manufacturing of therapeutic products.",
+          "cascade_rank": 15,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Ferring is a Swiss biopharmaceutical company engaged in the research, development, and manufacturing of pharmaceutical therapies.",
+          "baseline_b_rank": 16
+        },
+        {
+          "name": "MSD",
+          "location": "Lucerne, Lucerne, CH",
+          "grade": 3,
+          "judge_says": "Swiss-based biopharmaceutical company engaged in research, development, and manufacturing of medicines and vaccines.",
+          "cascade_rank": 4,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "MSD Merck Sharp & Dohme AG is a Swiss biopharmaceutical company engaged in the research, development, and manufacturing of medicines.",
+          "baseline_b_rank": 2
+        },
+        {
+          "name": "IBSA",
+          "location": "Lugano, Ticino, CH",
+          "grade": 3,
+          "judge_says": "Swiss pharmaceutical company engaged in the production of therapeutic products, prescription drugs, and medicines.",
+          "cascade_rank": 6,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "IBSA Institut Biochimique SA is a Swiss pharmaceutical company engaged in the production of therapeutic products.",
+          "baseline_b_rank": 5
+        },
+        {
+          "name": "TRB Chemedica",
+          "location": "Carouge, Geneva, CH",
+          "grade": 3,
+          "judge_says": "Swiss pharmaceutical company engaged in the development, manufacturing, and distribution of pharmaceutical products.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 14
+        },
+        {
+          "name": "Alcon",
+          "location": "CH",
+          "grade": 3,
+          "judge_says": "Swiss-based global pharmaceutical company focused on ophthalmic pharmaceutical products and research.",
+          "cascade_rank": 17,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Alcon Pharmaceuticals is a global pharmaceutical company located in Switzerland specializing in ophthalmic products.",
+          "baseline_b_rank": 15
+        },
+        {
+          "name": "Siegfried",
+          "location": "Zofingen, Aargau, CH",
+          "grade": 2,
+          "judge_says": "Swiss-based CDMO; provides essential manufacturing and development services within the pharmaceutical industry.",
+          "cascade_rank": 20,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Siegfried is a Swiss-based contract manufacturer that produces active pharmaceutical ingredients and finished dosage forms.",
+          "baseline_b_rank": 12
+        },
+        {
+          "name": "Bachem",
+          "location": "Bubendorf, Basel-Landschaft, CH",
+          "grade": 2,
+          "judge_says": "Swiss-based company specializing in peptide and oligonucleotide manufacturing for the pharmaceutical and biotech sectors.",
+          "cascade_rank": 23,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Bachem is a Swiss pharmaceutical company engaged in the development and manufacturing of peptides and oligonucleotides.",
+          "baseline_b_rank": 17
+        },
+        {
+          "name": "AbelaPharm",
+          "location": "Zurich, Zurich, CH",
+          "grade": 2,
+          "judge_says": "Swiss-based, but primarily focused on dietary supplements rather than core pharmaceutical drug development.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 6
+        },
+        {
+          "name": "Nestl\u00e9 Health Science",
+          "location": "Vevey, Vaud, CH",
+          "grade": 2,
+          "judge_says": "Swiss company focused on nutritional science and health solutions, with pharmaceutical solutions as a secondary offering.",
+          "cascade_rank": 9,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Nestl\u00e9 Health Science is located in Switzerland and engages in pharmaceutical solution development and nutritional manufacturing.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "CordenPharma",
+          "location": "Basel, Basel-City, CH",
+          "grade": 2,
+          "judge_says": "Swiss CDMO providing manufacturing services to the pharmaceutical industry; fits the sector but is a service provider.",
+          "cascade_rank": 18,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "CordenPharma is a Swiss-based contract development and manufacturing organization that manufactures active pharmaceutical ingredients and drug products.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "CARBOGEN AMCIS",
+          "location": "Bubendorf, Basel-Landschaft, CH",
+          "grade": 2,
+          "judge_says": "Swiss CDMO providing contract research and manufacturing services to the pharmaceutical sector.",
+          "cascade_rank": 12,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "CARBOGEN AMCIS is a Swiss pharmaceutical CDMO providing custom manufacturing and process research.",
+          "baseline_b_rank": 4
+        },
+        {
+          "name": "Lonza",
+          "location": "Basel, Basel-City, CH",
+          "grade": 2,
+          "judge_says": "Swiss CDMO providing integrated solutions and manufacturing services to the pharmaceutical and biotechnology industries.",
+          "cascade_rank": 10,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Lonza is a Swiss contract development and manufacturing organization providing pharmaceutical manufacturing solutions.",
+          "baseline_b_rank": 13
+        },
+        {
+          "name": "PolyPeptide",
+          "location": "Baar, Zug, CH",
+          "grade": 2,
+          "judge_says": "Swiss CDMO specializing in the manufacturing of peptide-based active pharmaceutical ingredients for the industry.",
+          "cascade_rank": 14,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "PolyPeptide Group is a Swiss CDMO engaged in manufacturing active pharmaceutical ingredients and peptides.",
+          "baseline_b_rank": null
+        }
+      ]
+    },
+    "q07": {
+      "query": "B2B SaaS companies providing HR solutions in Europe",
+      "kind": "semantic",
+      "note": "Four simultaneous conditions: B2B, SaaS delivery, HR domain, Europe. Partial matches (B2B SaaS that is not HR) are the main false positive.",
+      "complexity_detected": "SEMANTIC",
+      "pool_size": 33,
+      "relevant_in_pool": 33,
+      "cascade": {
+        "returned": 46.0,
+        "P@5": 1.0,
+        "nDCG@5": 0.9165,
+        "R@5": 0.1515,
+        "P@10": 1.0,
+        "nDCG@10": 0.8642,
+        "R@10": 0.303,
+        "P@20": 1.0,
+        "nDCG@20": 0.872,
+        "R@20": 0.6061,
+        "MAP": 0.936,
+        "relevant_found": 33.0,
+        "relevant_in_pool": 33.0
+      },
+      "baseline_b": {
+        "returned": 20.0,
+        "P@5": 1.0,
+        "nDCG@5": 0.8196,
+        "R@5": 0.1515,
+        "P@10": 1.0,
+        "nDCG@10": 0.883,
+        "R@10": 0.303,
+        "P@20": 1.0,
+        "nDCG@20": 0.906,
+        "R@20": 0.6061,
+        "MAP": 1.0,
+        "relevant_found": 20.0,
+        "relevant_in_pool": 33.0
+      },
+      "baseline_a": {
+        "returned": 20.0,
+        "P@5": 1.0,
+        "nDCG@5": 0.9165,
+        "R@5": 0.1515,
+        "P@10": 1.0,
+        "nDCG@10": 0.8642,
+        "R@10": 0.303,
+        "P@20": 1.0,
+        "nDCG@20": 0.872,
+        "R@20": 0.6061,
+        "MAP": 1.0,
+        "relevant_found": 20.0,
+        "relevant_in_pool": 33.0
+      },
+      "graded_detail": [
+        {
+          "name": "Bizneo HR",
+          "location": "Madrid, Community of Madrid, ES",
+          "grade": 3,
+          "judge_says": "Spanish B2B SaaS company providing a comprehensive suite of HR software solutions.",
+          "cascade_rank": 15,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Bizneo HR is a Spanish B2B SaaS company providing cloud-based HR management platforms and recruitment technology.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Trakstar",
+          "location": "Wierden, Overijssel, NL",
+          "grade": 3,
+          "judge_says": "Dutch B2B SaaS company providing HR management and performance software solutions.",
+          "cascade_rank": 19,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Trakstar is a Dutch B2B SaaS company specializing in HR management and performance management software.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "IguanaHR",
+          "location": "Shropshire, England, GB",
+          "grade": 3,
+          "judge_says": "British B2B SaaS company providing a comprehensive HR management software platform.",
+          "cascade_rank": 5,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "IguanaHR is a British B2B SaaS platform providing comprehensive HR and payroll management software.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Microtis",
+          "location": "Steinfort, Luxembourg, LU",
+          "grade": 3,
+          "judge_says": "Luxembourgish B2B SaaS company providing HR management software solutions.",
+          "cascade_rank": 40,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Microtis is a Luxembourgish company providing B2B SaaS HR software solutions for recruitment, training, and performance management.",
+          "baseline_b_rank": 16
+        },
+        {
+          "name": "Jooma",
+          "location": "Lyon, Auvergne-Rh\u00f4ne-Alpes, FR",
+          "grade": 3,
+          "judge_says": "French B2B SaaS company providing digital HR and payroll management solutions.",
+          "cascade_rank": 33,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Jooma is a French company providing a B2B SaaS platform specifically for HR and payroll management.",
+          "baseline_b_rank": 15
+        },
+        {
+          "name": "BambooHR",
+          "location": "Dublin, Leinster, IE",
+          "grade": 3,
+          "judge_says": "Irish B2B SaaS company providing a comprehensive HR management software platform.",
+          "cascade_rank": 2,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "BambooHR operates in Ireland as a B2B SaaS provider of HR management and payroll software solutions.",
+          "baseline_b_rank": 2
+        },
+        {
+          "name": "Staff & Go",
+          "location": "Hombourg, Grand Est, FR",
+          "grade": 3,
+          "judge_says": "French B2B SaaS company providing HR and payroll management software solutions.",
+          "cascade_rank": 25,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Staff & Go provides a B2B SaaS modular HR and payroll management platform in France.",
+          "baseline_b_rank": 18
+        },
+        {
+          "name": "Global HR",
+          "location": "London, England, GB",
+          "grade": 3,
+          "judge_says": "British B2B SaaS company providing HR software solutions. Meets all criteria.",
+          "cascade_rank": 3,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Global HR is a British B2B SaaS company delivering cloud-based human resources management software.",
+          "baseline_b_rank": 9
+        },
+        {
+          "name": "Sincron HR",
+          "location": "Bucharest, Bucharest, RO",
+          "grade": 3,
+          "judge_says": "Romanian B2B SaaS company providing HR software solutions. Meets all criteria.",
+          "cascade_rank": 11,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Sincron HR is a Romanian B2B SaaS company specializing in HR management platform and software solutions.",
+          "baseline_b_rank": 5
+        },
+        {
+          "name": "Sesame HR",
+          "location": "Valencia, Valencian Community, ES",
+          "grade": 3,
+          "judge_says": "Spanish B2B SaaS company providing HR software solutions. Meets all criteria.",
+          "cascade_rank": 38,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Sesame HR is a Spanish company providing a B2B SaaS suite of HR management tools including payroll and time tracking.",
+          "baseline_b_rank": 14
+        },
+        {
+          "name": "Toba HR Solutions",
+          "location": "Ghent, East Flanders, BE",
+          "grade": 3,
+          "judge_says": "Belgian B2B SaaS company providing HR software solutions. Meets all criteria.",
+          "cascade_rank": 23,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Toba HR Solutions develops and provides B2B SaaS applications dedicated to human resources and workforce management in Europe.",
+          "baseline_b_rank": 8
+        },
+        {
+          "name": "Crocodile",
+          "location": "Carlisle, England, GB",
+          "grade": 3,
+          "judge_says": "British B2B SaaS company providing HR software solutions. Meets all criteria.",
+          "cascade_rank": 16,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Crocodile is a British B2B SaaS company developing cloud-based human resources and payroll management software.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Sun RH",
+          "location": "FR",
+          "grade": 3,
+          "judge_says": "French B2B SaaS company providing HR software solutions. Meets all criteria.",
+          "cascade_rank": 17,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Sun RH is a French B2B SaaS company providing a comprehensive HR management and payroll software platform.",
+          "baseline_b_rank": 7
+        },
+        {
+          "name": "Tenea Talent",
+          "location": "Abrera, Catalonia, ES",
+          "grade": 3,
+          "judge_says": "European B2B SaaS company providing a modular suite of HR software solutions.",
+          "cascade_rank": 14,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Tenea Talent is a Spanish subscription-based B2B SaaS company specialized in human resources software solutions.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Personio",
+          "location": "Munich, Bavaria, DE",
+          "grade": 3,
+          "judge_says": "European B2B SaaS company specializing in HR software and employee management solutions.",
+          "cascade_rank": 1,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Personio is a German B2B SaaS company developing comprehensive HR and payroll software solutions.",
+          "baseline_b_rank": 10
+        },
+        {
+          "name": "Educos",
+          "location": "Koerich, Luxembourg, LU",
+          "grade": 3,
+          "judge_says": "European B2B SaaS company providing HRIS and payroll software solutions.",
+          "cascade_rank": 9,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Educos is a Luxembourgish B2B SaaS company developing HRIS and payroll software solutions.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Team2go",
+          "location": "Seville, Andalusia, ES",
+          "grade": 3,
+          "judge_says": "Spanish B2B SaaS company providing HR management software solutions.",
+          "cascade_rank": 44,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Team2go is a European-based company providing a suite of B2B SaaS HR management and talent development software tools.",
+          "baseline_b_rank": 12
+        },
+        {
+          "name": "NOVRH",
+          "location": "Marseille, Provence-Alpes-C\u00f4te d'Azur, FR",
+          "grade": 3,
+          "judge_says": "French B2B SaaS company providing HR and payroll software solutions.",
+          "cascade_rank": 28,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "NOVRH is a French company that develops and provides a web-based HR and payroll management platform for enterprises.",
+          "baseline_b_rank": 6
+        },
+        {
+          "name": "Sesame HR",
+          "location": "Valencia, Valencian Community, ES",
+          "grade": 3,
+          "judge_says": "Spanish B2B SaaS company providing HR management software solutions.",
+          "cascade_rank": 39,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Sesame HR is a Spanish company providing a B2B SaaS suite of HR management tools including recruitment and performance evaluation.",
+          "baseline_b_rank": 11
+        },
+        {
+          "name": "ICON HR",
+          "location": "Cramlington, England, GB",
+          "grade": 3,
+          "judge_says": "British B2B SaaS company providing cloud-based HR management software.",
+          "cascade_rank": 6,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "ICON HR is a British B2B SaaS company providing cloud-based HR management and recruitment software.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "UK HR Cloud",
+          "location": "Manchester, England, GB",
+          "grade": 3,
+          "judge_says": "British B2B SaaS company providing HR management system software.",
+          "cascade_rank": 10,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "UK HR Cloud is a British B2B SaaS company providing HR Management System software solutions.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "quarksUp",
+          "location": "Paris, Ile-de-France, FR",
+          "grade": 3,
+          "judge_says": "French B2B SaaS company providing HR management software.",
+          "cascade_rank": 12,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "quarksUp is a French B2B SaaS company that develops and provides human resources management software.",
+          "baseline_b_rank": 19
+        },
+        {
+          "name": "Sesame HR",
+          "location": "Valencia, Valencian Community, ES",
+          "grade": 3,
+          "judge_says": "Spanish B2B SaaS company providing HR management software solutions.",
+          "cascade_rank": 29,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Sesame HR is a Spanish software company providing a wide range of HR software solutions, including time management and talent management, via a SaaS model.",
+          "baseline_b_rank": 17
+        },
+        {
+          "name": "uMan Xpert",
+          "location": "S\u00e3o Mamede de Infesta, Porto, PT",
+          "grade": 3,
+          "judge_says": "Portuguese B2B SaaS company providing HR management software.",
+          "cascade_rank": 20,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "uMan Xpert is a Portuguese B2B SaaS company delivering an automated HR and payroll management platform.",
+          "baseline_b_rank": 1
+        },
+        {
+          "name": "Sesame HR",
+          "location": "Valencia, Valencian Community, ES",
+          "grade": 3,
+          "judge_says": "A Spanish B2B SaaS company providing a comprehensive suite of HR management software solutions.",
+          "cascade_rank": 27,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Sesame HR is a Spanish software publisher offering a comprehensive suite of HR management tools via a B2B SaaS model.",
+          "baseline_b_rank": 13
+        },
+        {
+          "name": "Kapsoon",
+          "location": "Marseille, Provence-Alpes-C\u00f4te d'Azur, FR",
+          "grade": 2,
+          "judge_says": "French B2B SaaS HR software provider, though specifically targeting the insurance sector.",
+          "cascade_rank": 32,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Kapsoon is a French B2B SaaS company providing digital human resources and payroll software solutions.",
+          "baseline_b_rank": 3
+        },
+        {
+          "name": "Novative",
+          "location": "Nyon, Vaud, CH",
+          "grade": 2,
+          "judge_says": "Swiss B2B SaaS company providing HR solutions, though also heavily focused on outsourcing services.",
+          "cascade_rank": 7,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Novative is a Swiss B2B SaaS company providing cloud-based HR and payroll management software solutions.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Kammi",
+          "location": "Paris, Ile-de-France, FR",
+          "grade": 2,
+          "judge_says": "French B2B SaaS company providing HR software, though also offers consulting and payroll outsourcing services.",
+          "cascade_rank": 24,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Kammi develops and provides modular B2B SaaS HR and payroll management software solutions in Europe.",
+          "baseline_b_rank": 20
+        },
+        {
+          "name": "Paychex",
+          "location": "Hamburg, Hamburg, DE",
+          "grade": 2,
+          "judge_says": "European B2B SaaS company providing HR software, though also heavily focused on payroll services.",
+          "cascade_rank": 13,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Paychex Germany provides cloud-based payroll software and HR management solutions on a B2B SaaS model.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "BCS HR Software",
+          "location": "'s-Hertogenbosch, North Brabant, NL",
+          "grade": 2,
+          "judge_says": "European B2B SaaS company providing HR software, though also offers HR outsourcing services.",
+          "cascade_rank": 8,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "BCS HR Software is a Dutch B2B SaaS company offering HRM and payroll administration software solutions.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "ASCIA",
+          "location": "Malveira, Lisbon, PT",
+          "grade": 2,
+          "judge_says": "European company providing HR software, but also functions as a custom programming and consulting service provider.",
+          "cascade_rank": 4,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "ASCIA is a Portuguese B2B SaaS provider offering software for payroll, attendance, and HR management.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Platfohrm",
+          "location": "Hasselt, Limburg, BE",
+          "grade": 2,
+          "judge_says": "European company providing HR software, but primarily positioned as an HR consulting firm.",
+          "cascade_rank": 45,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Platfohrm is a Belgian company providing a digital HR platform that automates personnel management and payroll, meeting both the B2B SaaS and HR software criteria.",
+          "baseline_b_rank": 4
+        },
+        {
+          "name": "Ciphr",
+          "location": "Reading, England, GB",
+          "grade": 2,
+          "judge_says": "European B2B SaaS company providing HR software, though also heavily focused on payroll bureau and managed services.",
+          "cascade_rank": 18,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Ciphr is a British B2B SaaS company developing HR software and payroll solutions.",
+          "baseline_b_rank": null
+        }
+      ]
+    },
+    "q08": {
+      "query": "Clean energy startups founded after 2018 with fewer than 200 employees",
+      "kind": "semantic",
+      "note": "Two numeric gates over fields missing in 27% and 38% of rows -- the hardest test of the UNKNOWN path. 'Startup' is also vague and must not become an invented extra filter.",
+      "complexity_detected": "SEMANTIC",
+      "pool_size": 35,
+      "relevant_in_pool": 20,
+      "cascade": {
+        "returned": 49.0,
+        "P@5": 1.0,
+        "nDCG@5": 0.9031,
+        "R@5": 0.25,
+        "P@10": 0.9,
+        "nDCG@10": 0.8826,
+        "R@10": 0.45,
+        "P@20": 0.9,
+        "nDCG@20": 0.9472,
+        "R@20": 0.9,
+        "MAP": 0.9218,
+        "relevant_found": 19.0,
+        "relevant_in_pool": 20.0
+      },
+      "baseline_b": {
+        "returned": 20.0,
+        "P@5": 0.2,
+        "nDCG@5": 0.2553,
+        "R@5": 0.05,
+        "P@10": 0.2,
+        "nDCG@10": 0.2726,
+        "R@10": 0.1,
+        "P@20": 0.3,
+        "nDCG@20": 0.3154,
+        "R@20": 0.3,
+        "MAP": 0.256,
+        "relevant_found": 6.0,
+        "relevant_in_pool": 20.0
+      },
+      "graded_detail": [
+        {
+          "name": "Verta",
+          "location": "Stavanger, Rogaland, NO",
+          "grade": 3,
+          "judge_says": "Clean energy company founded in 2023 with unknown (implied small) employee count.",
+          "cascade_rank": 5,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Verta develops small-scale wind turbines and clean energy solutions, founded in 2023 with an unstated employee count assumed under 200.",
+          "baseline_b_rank": 9
+        },
+        {
+          "name": "WBS Mobility",
+          "location": "Warsaw, Masovian Voivodeship, PL",
+          "grade": 3,
+          "judge_says": "Clean energy/EV infrastructure company founded in 2025 with 10 employees.",
+          "cascade_rank": 2,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "WBS Mobility develops electric vehicle charging infrastructure and solar power solutions, founded in 2025 with 10 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Fred. Olsen 1848",
+          "location": "Oslo, Oslo, NO",
+          "grade": 3,
+          "judge_says": "Clean energy startup founded in 2021 with 15 employees. Meets all criteria.",
+          "cascade_rank": 7,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Fred. Olsen 1848 was founded in 2021, has 15 employees, and develops floating solar and wind energy systems.",
+          "baseline_b_rank": 20
+        },
+        {
+          "name": "RJETech",
+          "location": "Guangzhou, Guangdong Province, CN",
+          "grade": 3,
+          "judge_says": "Clean energy startup founded in 2022 with 2 employees. Meets all criteria.",
+          "cascade_rank": 12,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "RJETech manufactures lithium batteries and energy storage equipment, was founded in 2022, and has 2 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Mitra Chem",
+          "location": "Mountain View, California, US",
+          "grade": 3,
+          "judge_says": "Clean energy startup founded in 2021 with 60 employees. Meets all criteria.",
+          "cascade_rank": 16,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Mitra Chem develops and manufactures lithium-ion battery cathode materials, founded in 2021 with 60 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Next Fabrication",
+          "location": "Aarhus, Central Denmark Region, DK",
+          "grade": 3,
+          "judge_says": "Clean energy startup founded in 2023 with 4 employees. Meets all criteria.",
+          "cascade_rank": 11,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Next Fabrication manufactures renewable energy components, was founded in 2023, and has 4 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "ValfryX",
+          "location": "Valencia, Valencian Community, ES",
+          "grade": 3,
+          "judge_says": "Founded 2025, 17 employees, operates directly in renewable energy production and management.",
+          "cascade_rank": 17,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "ValfryX provides solar panel installation and energy management solutions, was founded in 2025, and has 17 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Volta Capital",
+          "location": "Riccione, Emilia-Romagna, IT",
+          "grade": 3,
+          "judge_says": "Founded 2025, 1 employee, directly involved in renewable energy project development and installation.",
+          "cascade_rank": 14,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Volta Capital provides renewable energy project development and installation, founded in 2025, with 1 employee.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Energy-Technik",
+          "location": "Giza, Giza, EG",
+          "grade": 3,
+          "judge_says": "Founded 2025, 1 employee, directly involved in solar PV system design and installation.",
+          "cascade_rank": 13,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Energy-Technik provides solar PV and power systems, founded in 2025, with 1 employee.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Alotta",
+          "location": "\u00c5lesund, M\u00f8re og Romsdal, NO",
+          "grade": 3,
+          "judge_says": "Founded 2020, 11 employees, manufactures and installs floating solar power systems.",
+          "cascade_rank": 8,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Alotta was founded in 2020, has 11 employees, and manufactures floating solar power systems.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "NextGEN Energy",
+          "location": "Quinto di Treviso, Veneto, IT",
+          "grade": 3,
+          "judge_says": "Founded 2024, 5 employees, manufactures and services battery energy storage systems.",
+          "cascade_rank": 1,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "NextGEN Energy provides energy storage solutions and battery systems, founded in 2024 with 5 employees.",
+          "baseline_b_rank": 5
+        },
+        {
+          "name": "Norhybrid Renewables",
+          "location": "Porsgrunn, Vestfold og Telemark, NO",
+          "grade": 3,
+          "judge_says": "Founded 2020, 10 employees, manufactures wind turbines and hybrid power systems.",
+          "cascade_rank": 4,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Norhybrid Renewables manufactures wind turbines and hybrid power systems, founded in 2020 with 10 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "SideWind",
+          "location": "Reykjavik, Iceland, IS",
+          "grade": 3,
+          "judge_says": "Founded 2019, 4 employees, manufactures wind turbines for maritime and land applications.",
+          "cascade_rank": 9,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "SideWind manufactures vertical axis wind turbines, founded in 2019, with 4 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "POLYENTECH",
+          "location": "Foshan, Guangdong Province, CN",
+          "grade": 3,
+          "judge_says": "Clean energy battery startup founded in 2021; employee count unknown but fits criteria.",
+          "cascade_rank": 18,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Polyentech manufactures solid-state batteries and energy storage systems, founded in 2021 with an implied small team under 200 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "World Wide Wind",
+          "location": "B\u00e6rum, Viken, NO",
+          "grade": 3,
+          "judge_says": "Clean energy startup founded in 2021 with 6 employees.",
+          "cascade_rank": 6,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "World Wide Wind was founded in 2021, has 6 employees, and develops offshore floating wind turbine technology.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Asvata",
+          "location": "Mumbai, Maharashtra, IN",
+          "grade": 2,
+          "judge_says": "Founded in 2024 with 7 employees, but primarily an environmental consulting firm rather than a clean energy startup.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 12
+        },
+        {
+          "name": "Krefter",
+          "location": "Oslo, Oslo, NO",
+          "grade": 2,
+          "judge_says": "Matches all criteria, though it is a conglomerate with diverse offerings beyond just clean energy.",
+          "cascade_rank": 3,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Krefter develops renewable energy solutions and data centers, founded in 2021 with 1 employee.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Indonesia BTR New Energy Material",
+          "location": "Kendal, Central Java, ID",
+          "grade": 2,
+          "judge_says": "Founded in 2023 and in clean energy; employee count is unknown but likely small.",
+          "cascade_rank": 19,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Indonesia BTR New Energy Material manufactures lithium-ion batteries and nano carbon materials, founded in 2023.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "VASOL TECH",
+          "location": "Stockholm, Stockholm County, SE",
+          "grade": 2,
+          "judge_says": "Fits industry and size constraints; founding date is unknown, but nothing contradicts the startup criteria.",
+          "cascade_rank": 20,
+          "cascade_verdict": "PARTIAL",
+          "cascade_reason": "The company meets the employee count requirement and clean energy focus, but the founding year is unknown.",
+          "baseline_b_rank": 14
+        },
+        {
+          "name": "Pellbin Turbine",
+          "location": "Sundbyberg, Stockholm County, SE",
+          "grade": 2,
+          "judge_says": "Fits industry; founding date and employee count are unknown, but nothing contradicts the startup criteria.",
+          "cascade_rank": 48,
+          "cascade_verdict": "PARTIAL",
+          "cascade_reason": "The company develops renewable energy technology, but both the founding year and employee count are unknown, preventing verification of structural requirements.",
+          "baseline_b_rank": 18
+        },
+        {
+          "name": "CIDEcell",
+          "location": "San Sebasti\u00e1n, Autonomous Community of the Basque Country, ES",
+          "grade": 1,
+          "judge_says": "Founded date is unknown, preventing verification of the post-2018 constraint.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 15
+        },
+        {
+          "name": "Tesla Ocean Turbine",
+          "location": "\u00d6rebro, \u00d6rebro County, SE",
+          "grade": 1,
+          "judge_says": "Founded date is unknown, preventing verification of the post-2018 constraint.",
+          "cascade_rank": 36,
+          "cascade_verdict": "PARTIAL",
+          "cascade_reason": "The company develops tidal energy systems, but founding year and employee count are unknown, preventing confirmation of structural requirements.",
+          "baseline_b_rank": 1
+        },
+        {
+          "name": "CIRKEL Energi",
+          "location": "Viborg, Central Denmark Region, DK",
+          "grade": 1,
+          "judge_says": "Founded in 2000, violating the post-2018 constraint.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 19
+        },
+        {
+          "name": "Puhuri",
+          "location": "Oulunsalo, North Ostrobothnia, FI",
+          "grade": 1,
+          "judge_says": "Founded in 2010, violating the post-2018 constraint.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 13
+        },
+        {
+          "name": "Charge CCCV",
+          "location": "Binghamton, New York, US",
+          "grade": 1,
+          "judge_says": "Founded in 2013, violating the post-2018 constraint.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 17
+        },
+        {
+          "name": "Logic-Energy",
+          "location": "DK",
+          "grade": 1,
+          "judge_says": "Founded date is unknown, preventing verification of the post-2018 constraint.",
+          "cascade_rank": 33,
+          "cascade_verdict": "PARTIAL",
+          "cascade_reason": "The company manufactures wind turbines, but founding year and employee count are unknown, preventing confirmation of structural requirements.",
+          "baseline_b_rank": 8
+        },
+        {
+          "name": "PACE",
+          "location": "Brussels, Brussels-Capital, BE",
+          "grade": 1,
+          "judge_says": "It is a public-private project/advocacy group, not a commercial startup.",
+          "cascade_rank": 15,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "PACE promotes fuel cell micro-cogeneration systems, founded in 2025, with 3 employees.",
+          "baseline_b_rank": 3
+        },
+        {
+          "name": "Fastnet",
+          "location": "Gothenburg, V\u00e4stra G\u00f6taland County, SE",
+          "grade": 1,
+          "judge_says": "Founded in 2004, violating the post-2018 constraint.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 16
+        },
+        {
+          "name": "MantaWind",
+          "location": "Uppsala kommun, Uppsala County, SE",
+          "grade": 1,
+          "judge_says": "Founded in 2018, failing the 'after 2018' requirement.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 2
+        },
+        {
+          "name": "Tri Hita Consulting",
+          "location": "Denpasar, Bali, ID",
+          "grade": 1,
+          "judge_says": "This is a consulting firm, not a clean energy technology startup.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 11
+        },
+        {
+          "name": "Ventum Dynamics",
+          "location": "Stavanger, Rogaland, NO",
+          "grade": 1,
+          "judge_says": "Founded date is unknown, preventing verification of the age constraint.",
+          "cascade_rank": 23,
+          "cascade_verdict": "PARTIAL",
+          "cascade_reason": "The company manufactures wind energy equipment and meets the employee threshold, but the founding year is unknown, preventing confirmation of the startup criteria.",
+          "baseline_b_rank": 4
+        },
+        {
+          "name": "Sol Industries",
+          "location": "Klepp, Rogaland, NO",
+          "grade": 1,
+          "judge_says": "Founded date is unknown, preventing verification of the age constraint.",
+          "cascade_rank": 49,
+          "cascade_verdict": "PARTIAL",
+          "cascade_reason": "The company manufactures wind turbines, but the founding year and employee count are unknown, preventing verification of structural requirements.",
+          "baseline_b_rank": 7
+        },
+        {
+          "name": "WindSpider",
+          "location": "Sandnes, Rogaland, NO",
+          "grade": 1,
+          "judge_says": "This is a construction machinery manufacturer for wind, not a clean energy startup itself.",
+          "cascade_rank": 10,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "WindSpider manufactures wind turbine lifting solutions, founded in 2020, with 10 employees.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "windainergy",
+          "location": "G\u00f6teborgs Stad, V\u00e4stra G\u00f6taland County, SE",
+          "grade": 1,
+          "judge_says": "Founded date is unknown, preventing verification of the age constraint.",
+          "cascade_rank": 28,
+          "cascade_verdict": "PARTIAL",
+          "cascade_reason": "The company manufactures wind turbines, but the founding year and employee count are unknown, preventing confirmation of the startup criteria.",
+          "baseline_b_rank": 6
+        },
+        {
+          "name": "Againity",
+          "location": "Norrk\u00f6ping, \u00d6sterg\u00f6tland County, SE",
+          "grade": 1,
+          "judge_says": "Violates founding date constraint; founded in 2013, not after 2018.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 10
+        }
+      ]
+    },
+    "q09": {
+      "query": "Fast-growing fintech companies competing with traditional banks in Europe.",
+      "kind": "reasoning",
+      "note": "'Fast-growing' is unmeasurable from this schema and 'competing with traditional banks' is a judgement about market position. Tests whether the system admits what it cannot know instead of inventing growth data.",
+      "complexity_detected": "REASONING",
+      "pool_size": 20,
+      "relevant_in_pool": 8,
+      "cascade": {
+        "returned": 6.0,
+        "P@5": 1.0,
+        "nDCG@5": 0.9659,
+        "R@5": 0.625,
+        "P@10": 1.0,
+        "nDCG@10": 0.8387,
+        "R@10": 0.75,
+        "P@20": 1.0,
+        "nDCG@20": 0.766,
+        "R@20": 0.75,
+        "MAP": 1.0,
+        "relevant_found": 6.0,
+        "relevant_in_pool": 8.0
+      },
+      "baseline_b": {
+        "returned": 20.0,
+        "P@5": 0.8,
+        "nDCG@5": 0.6747,
+        "R@5": 0.5,
+        "P@10": 0.7,
+        "nDCG@10": 0.8052,
+        "R@10": 0.875,
+        "P@20": 0.4,
+        "nDCG@20": 0.8464,
+        "R@20": 1.0,
+        "MAP": 0.8292,
+        "relevant_found": 8.0,
+        "relevant_in_pool": 8.0
+      },
+      "graded_detail": [
+        {
+          "name": "Phin",
+          "location": "Starnberg, Bavaria, DE",
+          "grade": 3,
+          "judge_says": "Neobank aggregator platform operating across Europe; directly competes with traditional banking interfaces.",
+          "cascade_rank": 1,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Phin provides a digital mobile banking platform aggregating accounts and neobanks across Europe.",
+          "baseline_b_rank": 2
+        },
+        {
+          "name": "Folio",
+          "location": "Oslo, Oslo, NO",
+          "grade": 3,
+          "judge_says": "Provides business banking, accounts, and cards directly to customers, competing with traditional bank business banking services.",
+          "cascade_rank": 3,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Folio offers software-based business banking services and account management built on banking infrastructure.",
+          "baseline_b_rank": 7
+        },
+        {
+          "name": "ECrowd Invest",
+          "location": "Barcelona, Catalonia, ES",
+          "grade": 2,
+          "judge_says": "European crowd lending platform; competes with traditional bank lending, though niche in scope.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 4
+        },
+        {
+          "name": "CTC FUND",
+          "location": "London, England, GB",
+          "grade": 2,
+          "judge_says": "DeFi platform offering lending and interest accounts; competes with traditional banking products.",
+          "cascade_rank": 6,
+          "cascade_verdict": "PARTIAL",
+          "cascade_reason": "While it offers lending and interest accounts, it operates as a decentralized finance (DeFi) entity rather than a traditional retail or business banking competitor.",
+          "baseline_b_rank": 9
+        },
+        {
+          "name": "European Pay",
+          "location": "Paris, Ile-de-France, FR",
+          "grade": 2,
+          "judge_says": "Digital payment and wallet provider; competes with traditional bank payment services.",
+          "cascade_rank": 4,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "European Pay develops and operates a digital payment and wallet platform for contactless transactions.",
+          "baseline_b_rank": 1
+        },
+        {
+          "name": "Aircash",
+          "location": "City of Zagreb, City of Zagreb, HR",
+          "grade": 2,
+          "judge_says": "Electronic money institution offering digital wallets and payment services in Europe; competes directly with traditional banking payment functions.",
+          "cascade_rank": 2,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Aircash is an electronic money institution offering digital wallet and prepaid card services as a digital banking alternative.",
+          "baseline_b_rank": 6
+        },
+        {
+          "name": "Agility FX",
+          "location": "London, England, GB",
+          "grade": 2,
+          "judge_says": "Provides FX and payment services to consumers and businesses; competes with traditional bank foreign exchange and transfer services.",
+          "cascade_rank": 5,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Agility FX provides digital-first international money transfer, multi-currency payments, and virtual IBAN services that directly compete with traditional bank foreign exchange and payment services.",
+          "baseline_b_rank": 13
+        },
+        {
+          "name": "Salauddin Global Trading",
+          "location": "London, England, GB",
+          "grade": 2,
+          "judge_says": "Money transfer service competing with traditional bank remittance and international payment offerings in Europe.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 5
+        },
+        {
+          "name": "Credito21",
+          "location": "Madrid, Community of Madrid, ES",
+          "grade": 1,
+          "judge_says": "A credit comparison and advisory service, not a bank competitor itself.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 3
+        },
+        {
+          "name": "Euro-Rijn Financial Services",
+          "location": "Moerdijk, North Brabant, NL",
+          "grade": 1,
+          "judge_says": "Specialized commodity trade finance provider; B2B niche, not a general bank competitor.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 15
+        },
+        {
+          "name": "Brink's Solutions Nederland",
+          "location": "Utrecht, Utrecht, NL",
+          "grade": 1,
+          "judge_says": "Cash management and transport services; infrastructure provider, not a bank competitor.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 10
+        },
+        {
+          "name": "EcoExpert Green Consulting",
+          "location": "Oradea, Bihor, RO",
+          "grade": 1,
+          "judge_says": "Environmental consulting firm serving financial institutions; not a fintech company competing with banks.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 20
+        },
+        {
+          "name": "SkyHarvest",
+          "location": "Vienna, Vienna, AT",
+          "grade": 1,
+          "judge_says": "Software/platform provider for agricultural finance; acts as a vendor to banks rather than a competitor.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 12
+        },
+        {
+          "name": "Rantum Capital",
+          "location": "Frankfurt, Hesse, DE",
+          "grade": 1,
+          "judge_says": "Private debt and investment firm; operates in capital markets rather than retail/commercial banking competition.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 18
+        },
+        {
+          "name": "Ariv Pay",
+          "location": "London, England, GB",
+          "grade": 1,
+          "judge_says": "A B2B payment processor and service provider, not a challenger bank competing with traditional retail banking.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 11
+        },
+        {
+          "name": "New Payment Innovation",
+          "location": "Dublin, Leinster, IE",
+          "grade": 1,
+          "judge_says": "A B2B merchant services and payment terminal provider, not a consumer-facing fintech competing with traditional banks.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 8
+        },
+        {
+          "name": "EasyKassa",
+          "location": "Krems an der Donau, Lower Austria, AT",
+          "grade": 1,
+          "judge_says": "An IT and e-commerce service provider, not a fintech company competing with traditional banking institutions.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 14
+        },
+        {
+          "name": "Telef\u00f3nica Venture Builder",
+          "location": "Madrid, Community of Madrid, ES",
+          "grade": 0,
+          "judge_says": "A venture builder and telecommunications company, not a fintech competitor to banks.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 16
+        },
+        {
+          "name": "Auratech Engineering",
+          "location": "Olgiate Comasco, Lombardy, IT",
+          "grade": 0,
+          "judge_says": "Engineering and construction services firm; completely unrelated to fintech or banking.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 19
+        },
+        {
+          "name": "WBS Mobility",
+          "location": "Warsaw, Masovian Voivodeship, PL",
+          "grade": 0,
+          "judge_says": "An electric vehicle charging infrastructure company; completely unrelated to the fintech or banking sector.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 17
+        }
+      ]
+    },
+    "q10": {
+      "query": "E-commerce companies using Shopify or similar platforms",
+      "kind": "reasoning",
+      "note": "Asks about a technographic fact the dataset does not contain. The correct behaviour is graceful degradation to 'SMB-scale D2C e-commerce', flagged as inferred -- not confident fabrication.",
+      "complexity_detected": "SEMANTIC",
+      "pool_size": 9,
+      "relevant_in_pool": 7,
+      "cascade": {
+        "returned": 29.0,
+        "P@5": 0.4,
+        "nDCG@5": 0.4852,
+        "R@5": 0.2857,
+        "P@10": 0.4,
+        "nDCG@10": 0.5326,
+        "R@10": 0.5714,
+        "P@20": 0.35,
+        "nDCG@20": 0.7288,
+        "R@20": 1.0,
+        "MAP": 0.5031,
+        "relevant_found": 7.0,
+        "relevant_in_pool": 7.0
+      },
+      "baseline_b": {
+        "returned": 20.0,
+        "P@5": 0.2,
+        "nDCG@5": 0.3878,
+        "R@5": 0.1429,
+        "P@10": 0.2,
+        "nDCG@10": 0.4093,
+        "R@10": 0.2857,
+        "P@20": 0.2,
+        "nDCG@20": 0.5485,
+        "R@20": 0.5714,
+        "MAP": 0.461,
+        "relevant_found": 4.0,
+        "relevant_in_pool": 7.0
+      },
+      "graded_detail": [
+        {
+          "name": "Toys\"R\"Us",
+          "location": "Parsippany-Troy Hills, New Jersey, US",
+          "grade": 2,
+          "judge_says": "Large retailer with an online platform; Shopify usage is unverified but plausible for modern e-commerce operations.",
+          "cascade_rank": 14,
+          "cascade_verdict": "PARTIAL",
+          "cascade_reason": "Toys\"R\"Us operates an online platform, but the record does not specify whether it uses Shopify or a comparable e-commerce platform stack.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "DrinkAriZona",
+          "location": "Cincinnati, Ohio, US",
+          "grade": 2,
+          "judge_says": "Engages in e-commerce and direct-to-consumer sales; platform usage is not specified but fits the intent.",
+          "cascade_rank": 13,
+          "cascade_verdict": "PARTIAL",
+          "cascade_reason": "DrinkAriZona engages in e-commerce and retail, but the record lacks specific evidence confirming its e-commerce platform stack.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "Harbor Freight",
+          "location": "Calabasas, California, US",
+          "grade": 2,
+          "judge_says": "Retailer with an e-commerce platform; platform technology is not specified but fits the general intent.",
+          "cascade_rank": 8,
+          "cascade_verdict": "PARTIAL",
+          "cascade_reason": "Harbor Freight operates an online retail store, but the record does not specify the underlying e-commerce platform technology used.",
+          "baseline_b_rank": null
+        },
+        {
+          "name": "H&M Home",
+          "location": "Kuwait City, Al Asimah, KW",
+          "grade": 2,
+          "judge_says": "Operates an online shopping platform; platform technology is not specified but fits the general intent.",
+          "cascade_rank": 1,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "H&M Home operates an online retail store selling home goods and clothing directly to consumers.",
+          "baseline_b_rank": 14
+        },
+        {
+          "name": "Flextribe",
+          "location": "Austin, Texas, US",
+          "grade": 2,
+          "judge_says": "Engages in direct-to-consumer e-commerce; platform technology is not specified but fits the general intent.",
+          "cascade_rank": 4,
+          "cascade_verdict": "QUALIFIED",
+          "cascade_reason": "Flextribe engages in direct-to-consumer packaging retail and operates online.",
+          "baseline_b_rank": 1
+        },
+        {
+          "name": "Forever 21",
+          "location": "New York, New York, US",
+          "grade": 2,
+          "judge_says": "Large retailer with an online platform; platform technology is not specified but fits the general intent.",
+          "cascade_rank": 9,
+          "cascade_verdict": "PARTIAL",
+          "cascade_reason": "Forever 21 operates an online retail store, but the record does not specify the underlying e-commerce platform technology used.",
+          "baseline_b_rank": 7
+        },
+        {
+          "name": "Coop Sleep Goods",
+          "location": "Los Angeles, California, US",
+          "grade": 2,
+          "judge_says": "Engages in e-commerce and direct-to-consumer sales; platform technology is not specified but fits the general intent.",
+          "cascade_rank": 18,
+          "cascade_verdict": "PARTIAL",
+          "cascade_reason": "Coop Sleep Goods engages in e-commerce retail, but the record does not specify the e-commerce platform stack.",
+          "baseline_b_rank": 11
+        },
+        {
+          "name": "EasyKassa",
+          "location": "Krems an der Donau, Lower Austria, AT",
+          "grade": 1,
+          "judge_says": "This is a software/service provider for e-commerce, not an e-commerce company itself.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 4
+        },
+        {
+          "name": "European Pay",
+          "location": "Paris, Ile-de-France, FR",
+          "grade": 1,
+          "judge_says": "This is a fintech payment processor, not an e-commerce retailer using a platform like Shopify.",
+          "cascade_rank": null,
+          "cascade_verdict": null,
+          "cascade_reason": null,
+          "baseline_b_rank": 10
+        }
+      ]
+    }
+  },
+  "systems": {
+    "cascade": {
+      "P@5": 0.84,
+      "P@10": 0.8157,
+      "P@20": 0.7957,
+      "nDCG@10": 0.8737,
+      "nDCG@20": 0.9026,
+      "R@20": 0.8034,
+      "MAP": 0.8341,
+      "returned": 24.5,
+      "queries_scored": 10
+    },
+    "baseline_a": {
+      "P@5": 0.9333,
+      "P@10": 0.8889,
+      "P@20": 0.8556,
+      "nDCG@10": 0.8757,
+      "nDCG@20": 0.8965,
+      "R@20": 0.8687,
+      "MAP": 0.9808,
+      "returned": 16.3333,
+      "queries_scored": 3
+    },
+    "baseline_b": {
+      "P@5": 0.66,
+      "P@10": 0.66,
+      "P@20": 0.605,
+      "nDCG@10": 0.7475,
+      "nDCG@20": 0.8001,
+      "R@20": 0.7261,
+      "MAP": 0.7109,
+      "returned": 20.0,
+      "queries_scored": 10
+    }
+  },
+  "cost": {
+    "cascade": {
+      "queries": 10,
+      "wall_seconds": 0.2,
+      "llm_calls": 0,
+      "cost_usd": 0.0,
+      "cache_hits": 218
+    },
+    "baseline_b": {
+      "queries": 10,
+      "wall_seconds": 0.0,
+      "llm_calls": 0,
+      "cost_usd": 0.0
+    },
+    "baseline_a": {
+      "queries": 3,
+      "wall_seconds": 0.0,
+      "llm_calls": 0,
+      "cost_usd": 0.0,
+      "per_query_cost_usd": 0.0,
+      "per_query_seconds": 0.0
+    }
+  },
+  "unjudged_queries": [
+    "q11",
+    "q12"
+  ],
+  "baseline_a_projection": {
+    "projected_calls": 456,
+    "projected_cost_usd": 0.0,
+    "projected_minutes_at_free_tier": 30.4,
+    "measured_on_calls": 1,
+    "cost_per_call_usd": 0.0
+  },
+  "baseline_a_mode": "pooled: run over the judged candidate pool, not the full corpus",
+  "judge_model": "gemini-3.8-flash",
+  "cache_stats": {
+    "hits": 219,
+    "misses": 38,
+    "baseline_a": 278,
+    "embed": 493,
+    "escalate": 45,
+    "judge": 40,
+    "planner": 27,
+    "qualify": 156
+  }
+}

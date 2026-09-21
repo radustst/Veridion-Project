@@ -1,0 +1,63 @@
+// Hand-adjudicated relevance labels, graded 0-3 on the scale in evaluation/judge.py.
+//
+// Provenance, stated plainly: these were assigned by the author of this
+// submission, by reading each company's full record (NAICS code, core
+// offerings, business model and description) and deciding independently of
+// what the pipeline or the LLM judge said. They are a single-annotator set,
+// not crowd-sourced gold, so they carry this author's reading of each query
+// and no inter-annotator agreement can be computed. They exist to answer one
+// question: is the LLM judge trustworthy enough to quote? Where judge and
+// human disagree, results/calibration.json lists every case so a reader can
+// decide who was right.
+//
+// 3 = strong match  2 = good match, minor caveat  1 = weak/adjacent  0 = no match
+{"query_id": "q01", "company": "Portul Constanta", "grade": 2, "note": "Port authority, but cargo handling, transshipment and transit cargo logistics are core logistics services."}
+{"query_id": "q01", "company": "Posta Romana", "grade": 3, "note": "National postal operator: parcel delivery and customs clearance is logistics."}
+{"query_id": "q01", "company": "Poșta Română", "grade": 3, "note": "National postal operator: parcel delivery and customs clearance is logistics."}
+{"query_id": "q01", "company": "Compania Națională de Căi Ferate CFR", "grade": 2, "note": "Primarily rail infrastructure manager, but freight rail transport is listed among core offerings."}
+{"query_id": "q01", "company": "Valbur", "grade": 2, "note": "Commodity trader whose offerings include global logistics management and physical movement of goods; logistics is real but secondary to trading."}
+{"query_id": "q01", "company": "Brasov Industrial Portfolio", "grade": 1, "note": "Industrial real estate: every core offering is facility LEASING. Owning a warehouse is not providing logistics services. NAICS 493110 is misleading here."}
+{"query_id": "q01", "company": "OSCAR", "grade": 1, "note": "Petroleum products wholesaler (NAICS 424720). Logistics and storage exist only to serve its own fuel distribution."}
+{"query_id": "q01", "company": "Prutul", "grade": 0, "note": "Vegetable oil refiner. Not a logistics company."}
+
+{"query_id": "q04", "company": "BAOLILONG GLASS PACKAGING", "grade": 3, "note": "Manufactures cosmetic glass jars and caps. Exactly the target."}
+{"query_id": "q04", "company": "SHEACK Packaging", "grade": 3, "note": "Manufactures pumps, caps, bottles, tubes, droppers, jars for consumer goods."}
+{"query_id": "q04", "company": "Lesopack Cos Packaging", "grade": 3, "note": "Custom cosmetic packaging manufacturer for the beauty industry."}
+{"query_id": "q04", "company": "Wenjing Packaging", "grade": 3, "note": "Cosmetic jars, foam/lotion/spray/airless bottles."}
+{"query_id": "q04", "company": "Shanghai Bochen Cosmetic Packaging", "grade": 3, "note": "Cosmetic plastic bottles, airless bottles, pumps, compacts, tubes, jars."}
+{"query_id": "q04", "company": "Sunshine Packaging", "grade": 3, "note": "Designs, manufactures and exports eco-friendly cosmetics packaging."}
+{"query_id": "q04", "company": "Shenzhen Itop Cosmetic Packaging", "grade": 3, "note": "Cosmetic packaging manufacturer serving a global market."}
+{"query_id": "q04", "company": "Silver Spur", "grade": 3, "note": "US manufacturer/distributor of glass and plastic containers, closures and caps; ready-to-fill packaging."}
+{"query_id": "q04", "company": "Crystal International", "grade": 3, "note": "Injection moulding and glass components for colour cosmetics and fragrance packaging."}
+{"query_id": "q04", "company": "SZ SJ Packaging", "grade": 3, "note": "Lipstick tubes, eyeshadow palettes, skincare bottles."}
+{"query_id": "q04", "company": "Minh Trang Packaging", "grade": 3, "note": "Cosmetic bottles, jars and custom packaging printing."}
+{"query_id": "q04", "company": "Standard Mold", "grade": 3, "note": "Korean cosmetic packaging and container manufacturer, applicators and make-up tubes."}
+{"query_id": "q04", "company": "Ningbo Onson", "grade": 3, "note": "Design, moulding and production of cosmetic packaging; perfume packaging."}
+{"query_id": "q04", "company": "YONWOO", "grade": 3, "note": "Airless and vacuum pumps for cosmetics: a classic primary-packaging supplier."}
+{"query_id": "q04", "company": "Aurelo Packaging Co", "grade": 3, "note": "Glass dropper bottles and caps for serums and face oils; explicitly D2C beauty."}
+{"query_id": "q04", "company": "Central de Envasados", "grade": 2, "note": "Co-packer for cosmetic, health and food sectors. Supplies the filling/packaging service rather than the materials, but plainly usable."}
+{"query_id": "q04", "company": "Yijie Packaging", "grade": 2, "note": "General plastic/glass/paper packaging and gift packaging; capable but not cosmetics-specific."}
+{"query_id": "q04", "company": "Vetipak", "grade": 2, "note": "FMCG co-packer weighted to food and confectionery; could serve a cosmetics brand but is not positioned for it."}
+{"query_id": "q04", "company": "Avery", "grade": 2, "note": "Self-adhesive labels are genuine packaging materials, but the company is positioned as office supplies."}
+{"query_id": "q04", "company": "Flextribe", "grade": 2, "note": "Eco-friendly protective/shipping packaging for fragile goods. A D2C brand needs this, but it is secondary packaging, not containers."}
+
+{"query_id": "q07", "company": "Personio", "grade": 3, "note": "German HR software publisher: ATS, performance, payroll. Textbook B2B SaaS HR."}
+{"query_id": "q07", "company": "BambooHR", "grade": 3, "note": "Irish entity, HR management SaaS platform."}
+{"query_id": "q07", "company": "Global HR", "grade": 3, "note": "British HRM software publisher."}
+{"query_id": "q07", "company": "IguanaHR", "grade": 3, "note": "British HR management SaaS platform."}
+{"query_id": "q07", "company": "ICON HR", "grade": 3, "note": "Cloud-based HR software for businesses."}
+{"query_id": "q07", "company": "BCS HR Software", "grade": 3, "note": "Dutch modular HRM and payroll software suite."}
+{"query_id": "q07", "company": "Educos", "grade": 3, "note": "Luxembourg HRIS and payroll cloud platform."}
+{"query_id": "q07", "company": "UK HR Cloud", "grade": 3, "note": "British HRMS software."}
+{"query_id": "q07", "company": "Sincron HR", "grade": 3, "note": "Romanian HR software: recruitment, talent management, analytics."}
+{"query_id": "q07", "company": "quarksUp", "grade": 3, "note": "French HR management software as a service, explicitly SaaS."}
+{"query_id": "q07", "company": "Tenea Talent", "grade": 3, "note": "Spanish modular HR software suite."}
+{"query_id": "q07", "company": "Bizneo HR", "grade": 3, "note": "Spanish cloud HR management and recruitment platform."}
+{"query_id": "q07", "company": "Crocodile", "grade": 3, "note": "British cloud HR management system for small businesses."}
+{"query_id": "q07", "company": "Sun RH", "grade": 3, "note": "French HR management software provider."}
+{"query_id": "q07", "company": "Ciphr", "grade": 3, "note": "British cloud HR and payroll software."}
+{"query_id": "q07", "company": "Trakstar", "grade": 3, "note": "Dutch HR and performance management software."}
+{"query_id": "q07", "company": "uMan Xpert", "grade": 3, "note": "Portuguese HRM SaaS platform."}
+{"query_id": "q07", "company": "ASCIA", "grade": 2, "note": "NAICS 541511 custom programming: an IT solutions provider building HR systems rather than a SaaS product company."}
+{"query_id": "q07", "company": "Novative", "grade": 2, "note": "NAICS 541612 HR consulting. Sells payroll/HR outsourcing services alongside a platform; services-led rather than SaaS-led."}
+{"query_id": "q07", "company": "Paychex", "grade": 2, "note": "NAICS 541214 Payroll Services. Payroll bureau with cloud software; a service provider more than a SaaS vendor."}

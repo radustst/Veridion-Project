@@ -1,0 +1,8 @@
+# Runtime. Deliberately minimal: no vendor SDK, no vector database, no ML
+# framework. The Gemini REST API is called directly with httpx so the retry,
+# fallback and rate-limiting behaviour stays visible and portable.
+httpx>=0.27,<1.0
+numpy>=1.26
+
+# Tests
+pytest>=8.0

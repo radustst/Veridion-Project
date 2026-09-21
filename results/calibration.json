@@ -1,0 +1,181 @@
+{
+  "pairs_labelled": 47,
+  "exact_agreement": 0.617,
+  "within_one_grade": 0.9787,
+  "kappa_graded": 0.2392,
+  "kappa_binary": 0.2295,
+  "judge_vs_human_binary": {
+    "precision": 0.9534883720930233,
+    "recall": 0.9318181818181818,
+    "f1": 0.942528735632184,
+    "tp": 41,
+    "fp": 2,
+    "fn": 3
+  },
+  "judge_mean_grade": 2.511,
+  "human_mean_grade": 2.617,
+  "disagreements": [
+    {
+      "query_id": "q01",
+      "company": "Brasov Industrial Portfolio",
+      "judge": 3,
+      "human": 1,
+      "judge_says": "Specializes in warehousing, logistics facility leasing, and e-commerce logistics solutions.",
+      "human_note": "Industrial real estate: every core offering is facility LEASING. Owning a warehouse is not providing logistics services. NAICS 493110 is misleading here.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q01",
+      "company": "Portul Constanta",
+      "judge": 3,
+      "human": 2,
+      "judge_says": "Operates port infrastructure and provides cargo handling and transit logistics services in Romania.",
+      "human_note": "Port authority, but cargo handling, transshipment and transit cargo logistics are core logistics services.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q01",
+      "company": "Compania Na\u021bional\u0103 de C\u0103i Ferate CFR",
+      "judge": 3,
+      "human": 2,
+      "judge_says": "Manages national railway infrastructure and provides freight rail transport services.",
+      "human_note": "Primarily rail infrastructure manager, but freight rail transport is listed among core offerings.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q01",
+      "company": "OSCAR",
+      "judge": 2,
+      "human": 1,
+      "judge_says": "Fuel distributor that operates its own logistics infrastructure and provides logistics services.",
+      "human_note": "Petroleum products wholesaler (NAICS 424720). Logistics and storage exist only to serve its own fuel distribution.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q01",
+      "company": "Prutul",
+      "judge": 1,
+      "human": 0,
+      "judge_says": "Primarily an agribusiness and vegetable oil producer; logistics is internal, not a core service.",
+      "human_note": "Vegetable oil refiner. Not a logistics company.",
+      "cascade_verdict": "PARTIAL"
+    },
+    {
+      "query_id": "q04",
+      "company": "SHEACK Packaging",
+      "judge": 2,
+      "human": 3,
+      "judge_says": "Specializes in cosmetics packaging manufacturing and distribution, though primarily B2B focused.",
+      "human_note": "Manufactures pumps, caps, bottles, tubes, droppers, jars for consumer goods.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q04",
+      "company": "Shanghai Bochen Cosmetic Packaging",
+      "judge": 2,
+      "human": 3,
+      "judge_says": "Directly manufactures cosmetic packaging; business model includes B2C, making them a strong candidate.",
+      "human_note": "Cosmetic plastic bottles, airless bottles, pumps, compacts, tubes, jars.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q04",
+      "company": "Sunshine Packaging",
+      "judge": 2,
+      "human": 3,
+      "judge_says": "Specialized manufacturer and exporter of cosmetic packaging solutions.",
+      "human_note": "Designs, manufactures and exports eco-friendly cosmetics packaging.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q04",
+      "company": "Crystal International",
+      "judge": 2,
+      "human": 3,
+      "judge_says": "Established manufacturer of cosmetics packaging, though focused on B2B/enterprise services.",
+      "human_note": "Injection moulding and glass components for colour cosmetics and fragrance packaging.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q04",
+      "company": "SZ SJ Packaging",
+      "judge": 2,
+      "human": 3,
+      "judge_says": "Strong cosmetic packaging manufacturer offering ODM/OEM services, suitable for beauty brands, though primarily B2B wholesale.",
+      "human_note": "Lipstick tubes, eyeshadow palettes, skincare bottles.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q04",
+      "company": "Standard Mold",
+      "judge": 2,
+      "human": 3,
+      "judge_says": "Dedicated manufacturer of cosmetic packaging and containers for the cosmetics industry.",
+      "human_note": "Korean cosmetic packaging and container manufacturer, applicators and make-up tubes.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q04",
+      "company": "Ningbo Onson",
+      "judge": 2,
+      "human": 3,
+      "judge_says": "Specialized cosmetic packaging manufacturer serving global markets, though primarily B2B wholesale.",
+      "human_note": "Design, moulding and production of cosmetic packaging; perfume packaging.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q04",
+      "company": "Yijie Packaging",
+      "judge": 3,
+      "human": 2,
+      "judge_says": "Manufacturer and supplier of diverse packaging products specifically for the cosmetics and personal care industries.",
+      "human_note": "General plastic/glass/paper packaging and gift packaging; capable but not cosmetics-specific.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q04",
+      "company": "Vetipak",
+      "judge": 1,
+      "human": 2,
+      "judge_says": "Co-manufacturing and logistics provider for FMCG; not a primary supplier of cosmetic packaging materials.",
+      "human_note": "FMCG co-packer weighted to food and confectionery; could serve a cosmetics brand but is not positioned for it.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q04",
+      "company": "Avery",
+      "judge": 1,
+      "human": 2,
+      "judge_says": "Primarily an office supply and label manufacturer; not a specialized packaging supplier for the cosmetics industry.",
+      "human_note": "Self-adhesive labels are genuine packaging materials, but the company is positioned as office supplies.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q04",
+      "company": "Flextribe",
+      "judge": 1,
+      "human": 2,
+      "judge_says": "Focuses on honeycomb packing paper for fragile items; cosmetics is a secondary, tangential market.",
+      "human_note": "Eco-friendly protective/shipping packaging for fragile goods. A D2C brand needs this, but it is secondary packaging, not containers.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q07",
+      "company": "BCS HR Software",
+      "judge": 2,
+      "human": 3,
+      "judge_says": "European B2B SaaS company providing HR software, though also offers HR outsourcing services.",
+      "human_note": "Dutch modular HRM and payroll software suite.",
+      "cascade_verdict": "QUALIFIED"
+    },
+    {
+      "query_id": "q07",
+      "company": "Ciphr",
+      "judge": 2,
+      "human": 3,
+      "judge_says": "European B2B SaaS company providing HR software, though also heavily focused on payroll bureau and managed services.",
+      "human_note": "British cloud HR and payroll software.",
+      "cascade_verdict": "QUALIFIED"
+    }
+  ]
+}

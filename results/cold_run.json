@@ -1,0 +1,12 @@
+[
+  {
+    "query": "Logistic companies in Romania",
+    "calls": 6,
+    "cost_usd": 0.00321,
+    "seconds": 18.8,
+    "shortlist": 26,
+    "escalated": 4,
+    "returned": 7,
+    "note": "cold: response cache disabled; embeddings reused (deterministic). The other two planned cold measurements were abandoned when the daily API quota ran out."
+  }
+]
