@@ -104,4 +104,4 @@ tests/                   offline unit tests for the deterministic components
   daily allowance and return 429 once it is gone. Every model chain in
   `iq/config.py` therefore ends in a lite model, rate-limited models enter a
   cooldown, and a failed query plan degrades to a heuristic rather than
-  aborting the run.
+  aborting the run.   
